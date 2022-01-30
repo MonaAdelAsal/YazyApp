@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.appcenter:appcenter-crashes:3.3.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/991b5b29811a9fa7496af9edd38dccf1/jetified-appcenter-crashes-3.3.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84523015a7b7ed0d1433e99b8c983c5/jetified-appcenter-crashes-3.3.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a1c73b1f662225e064921a38e04d6bc/jetified-appcenter-crashes-3.3.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef65b07ed5cf7e9dd4b35eea853a9cb6/jetified-appcenter-crashes-3.3.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/991b5b29811a9fa7496af9edd38dccf1/jetified-appcenter-crashes-3.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/991b5b29811a9fa7496af9edd38dccf1/jetified-appcenter-crashes-3.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/991b5b29811a9fa7496af9edd38dccf1/jetified-appcenter-crashes-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84523015a7b7ed0d1433e99b8c983c5/jetified-appcenter-crashes-3.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84523015a7b7ed0d1433e99b8c983c5/jetified-appcenter-crashes-3.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84523015a7b7ed0d1433e99b8c983c5/jetified-appcenter-crashes-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/951fe81b31679b6281975c7c1e164e6a/jetified-appcenter-crashes-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a1c73b1f662225e064921a38e04d6bc/jetified-appcenter-crashes-3.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a1c73b1f662225e064921a38e04d6bc/jetified-appcenter-crashes-3.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a1c73b1f662225e064921a38e04d6bc/jetified-appcenter-crashes-3.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bd479a868826e08e887988199db0039/jetified-appcenter-crashes-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef65b07ed5cf7e9dd4b35eea853a9cb6/jetified-appcenter-crashes-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef65b07ed5cf7e9dd4b35eea853a9cb6/jetified-appcenter-crashes-3.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef65b07ed5cf7e9dd4b35eea853a9cb6/jetified-appcenter-crashes-3.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter-crashes/3.3.0/187e955c2100ccb1d684e269813d71a2fb4385b0/appcenter-crashes-3.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter-crashes/3.3.0/11d341b219623f07196a772f50c3ea4801dcc69d/appcenter-crashes-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

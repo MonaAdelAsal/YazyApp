@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="ProfileData"
+            type="com.asc.yazy.api.model.ModelUser" />
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/shadow_not_soild_cir"
+                android:contentDescription="@string/icon"
+                app:srcCompat="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/edit_account_info"
+                android:textColor="@color/semiBlack"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layoutHeader">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/llUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rounded_gray_border">
+
+                    <ImageView
+                        android:id="@+id/imgIcon"
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_user_name" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@id/imgCancelName"
+                        android:layout_toEndOf="@id/imgIcon"
+                        android:textColorHint="@color/trolleyGrey"
+                        app:hintTextColor="@color/trolleyGrey">
+
+                        <EditText
+                            android:id="@+id/etUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                            android:drawablePadding="10dp"
+                            android:gravity="start|center"
+                            android:hint="@string/username_1"
+                            android:imeOptions="actionNext"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:maxLength="45"
+                            android:text="@{ProfileData.name}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/trolleyGrey"
+                            android:textSize="14sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/imgCancelName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="16dp"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/cancel_2" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/please_enter_name_as_written_in_passport_and_it_is_your_responsibility_to_enter_it_right"
+                    android:textColor="@color/trolleyGrey"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:id="@+id/llMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/rounded_gray_border">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_email" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/imgCancelEmail"
+                        android:layout_toEndOf="@id/img"
+                        android:textColorHint="@color/trolleyGrey">
+
+                        <EditText
+                            android:id="@+id/etEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:drawablePadding="10dp"
+                            android:gravity="start|center"
+                            android:hint="@string/email"
+                            android:imeOptions="actionNext"
+                            android:importantForAutofill="no"
+                            android:inputType="textEmailAddress"
+                            android:maxLength="45"
+                            android:text="@{ProfileData.email}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/trolleyGrey"
+                            android:textSize="14sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imgCancelEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="16dp"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/cancel_2" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/llNationality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/rounded_gray_border"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/icon"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_nationality" />
+
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/cpNationality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        app:ccpDialog_backgroundColor="@color/white"
+                        app:ccpDialog_searchEditTextTint="@color/semiBlack"
+                        app:ccpDialog_showPhoneCode="false"
+                        app:ccpDialog_textColor="@color/semiBlack"
+                        app:ccp_autoDetectLanguage="true"
+                        app:ccp_defaultNameCode="KW"
+                        app:ccp_flagBorderColor="@color/blue"
+                        app:ccp_rememberLastSelection="true"
+                        app:ccp_showFlag="true"
+                        app:ccp_showFullName="true"
+                        app:ccp_showNameCode="true"
+                        app:ccp_showPhoneCode="false" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/llPassport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/rounded_gray_border">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_passport" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/imgCancelPassport"
+                        android:layout_toEndOf="@id/img4"
+                        android:textColorHint="@color/trolleyGrey">
+
+                        <EditText
+                            android:id="@+id/etPassport"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:drawablePadding="10dp"
+                            android:gravity="start|center"
+                            android:hint="@string/passport_number"
+                            android:imeOptions="actionNext"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:maxLength="45"
+                            android:text="@{ProfileData.passport_no}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/trolleyGrey"
+                            android:textSize="14sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imgCancelPassport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="16dp"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/cancel_2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/llExpiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/rounded_gray_border">
+
+                    <ImageView
+                        android:id="@+id/img44"
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_date" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/imgCancelExpiryDate"
+                        android:layout_toEndOf="@id/img44"
+                        android:textColorHint="@color/trolleyGrey">
+
+                        <EditText
+                            android:id="@+id/etExpiryDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:drawablePadding="10dp"
+                            android:gravity="start|center"
+                            android:hint="@string/expiry_date"
+
+                            android:imeOptions="actionNext"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:maxLength="45"
+                            android:text="@{ProfileData.passport_expiry}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/trolleyGrey"
+                            android:textSize="14sp"
+                            tools:ignore="TextFields" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imgCancelExpiryDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="16dp"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/cancel_2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/llCivil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/rounded_gray_border">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_civil_id" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/imgCancelCivil"
+                        android:layout_toEndOf="@id/img5"
+                        android:textColorHint="@color/trolleyGrey">
+
+                        <EditText
+                            android:id="@+id/etCivil"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:drawablePadding="10dp"
+                            android:gravity="start|center"
+                            android:hint="@string/civil_id"
+                            android:imeOptions="actionNext"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:maxLength="45"
+                            android:text="@{ProfileData.civil_id}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/trolleyGrey"
+                            android:textSize="14sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imgCancelCivil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/icon"
+                        android:padding="16dp"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/cancel_2" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginBottom="220dp"
+                    android:background="@drawable/sold_blue"
+                    android:text="@string/update"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</layout>

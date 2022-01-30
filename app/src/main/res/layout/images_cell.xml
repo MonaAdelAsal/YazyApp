@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <com.comix.rounded.RoundedCornerImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:contentDescription="@string/icon"
+            android:scaleType="centerCrop"
+            app:cornerBottomDisable="false"
+            app:cornerColor="@color/white"
+            app:cornerLeftDisable="true"
+            app:cornerRadius="5dp"
+            app:cornerRightDisable="true"
+            app:cornerTopDisable="true"
+
+            />
+
+
+</layout>

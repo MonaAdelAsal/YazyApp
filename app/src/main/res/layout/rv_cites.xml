@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="trip"
+            type="com.asc.yazy.api.model.CityModel" />
+
+        <variable
+            name="listener"
+            type="com.asc.yazy.interfaces.OnCityListener" />
+
+        <variable
+            name="position"
+            type="int" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:onClick="@{(v)-> listener.onCityClicked(position)}"
+        android:orientation="horizontal">
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/imgLoader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp">
+
+            <com.comix.rounded.RoundedCornerImageView
+                android:id="@+id/img"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:background="@color/gray"
+                android:scaleType="centerCrop"
+                app:cornerColor="@color/white"
+                app:cornerRadius="5dp" />
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toStartOf="@id/arrow"
+            android:layout_toEndOf="@id/imgLoader"
+            android:orientation="vertical">
+
+
+            <io.supercharge.shimmerlayout.ShimmerLayout
+
+                android:id="@+id/tvNameLoader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginEnd="16dp"
+                android:gravity="center|start">
+
+
+                <TextView
+                    android:id="@+id/tvDestination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray"
+                    android:maxLines="1"
+                    android:minWidth="90dp"
+                    android:text="@{trip.city_name}"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </io.supercharge.shimmerlayout.ShimmerLayout>
+
+
+            <io.supercharge.shimmerlayout.ShimmerLayout
+                android:id="@+id/tvDateLoader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center|start">
+
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray"
+                    android:maxLines="1"
+                    android:minWidth="90dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+            </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            app:tint="@color/black" />
+
+
+    </RelativeLayout>
+</layout>

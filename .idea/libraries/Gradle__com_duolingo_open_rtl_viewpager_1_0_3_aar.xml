@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.duolingo.open:rtl-viewpager:1.0.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b0a80463c16a39bb367b959888937d1/jetified-rtl-viewpager-1.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b0a80463c16a39bb367b959888937d1/jetified-rtl-viewpager-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b0a80463c16a39bb367b959888937d1/jetified-rtl-viewpager-1.0.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c77703d186ddf3e0c2d9f6a149447dd9/jetified-rtl-viewpager-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c77703d186ddf3e0c2d9f6a149447dd9/jetified-rtl-viewpager-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c77703d186ddf3e0c2d9f6a149447dd9/jetified-rtl-viewpager-1.0.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/748c1a1478829307c8df2df4a50005ec/jetified-rtl-viewpager-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba416ad2c712e790b344f56d7a87006f/jetified-rtl-viewpager-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba416ad2c712e790b344f56d7a87006f/jetified-rtl-viewpager-1.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba416ad2c712e790b344f56d7a87006f/jetified-rtl-viewpager-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9427f4dbff9550ca289d39a3ccf4f0f8/jetified-rtl-viewpager-1.0.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c564a7535131d37c4721326dfd15136e/jetified-rtl-viewpager-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c564a7535131d37c4721326dfd15136e/jetified-rtl-viewpager-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c564a7535131d37c4721326dfd15136e/jetified-rtl-viewpager-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.duolingo.open/rtl-viewpager/1.0.3/1f3f66bd8a7378b078fd3ac825a3f00298dc7c6b/rtl-viewpager-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="trip"
+            type="com.asc.yazy.api.model.ModelBooking" />
+
+        <variable
+            name="listener"
+            type="com.asc.yazy.interfaces.OnTripListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:onClick="@{(v)-> listener.onTripClick(trip)}"
+        android:orientation="horizontal">
+
+        <com.comix.rounded.RoundedCornerImageView
+            android:id="@+id/img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="13dp"
+            android:background="@color/gray"
+            android:scaleType="centerCrop"
+            app:cornerColor="@color/white"
+            app:cornerRadius="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvDestination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:minWidth="90dp"
+                android:text="@{trip.title}"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDestination"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:minWidth="120dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textDirection="ltr"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/line"
+                android:layout_below="@id/tvDate"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="4dp"
+                android:textColor="#f94338"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/cloudy_blue" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

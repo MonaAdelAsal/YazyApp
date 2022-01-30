@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.allattentionhere:fabulousfilter:0.0.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca5cc4608854a6be0faacd133e5b21bf/jetified-fabulousfilter-0.0.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca5cc4608854a6be0faacd133e5b21bf/jetified-fabulousfilter-0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca5cc4608854a6be0faacd133e5b21bf/jetified-fabulousfilter-0.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18c848b46a0ada5f19f7e18a3db24db5/jetified-fabulousfilter-0.0.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18c848b46a0ada5f19f7e18a3db24db5/jetified-fabulousfilter-0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18c848b46a0ada5f19f7e18a3db24db5/jetified-fabulousfilter-0.0.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c91e0c6cad01b6063644d8ec94500bcc/jetified-fabulousfilter-0.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c91e0c6cad01b6063644d8ec94500bcc/jetified-fabulousfilter-0.0.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c91e0c6cad01b6063644d8ec94500bcc/jetified-fabulousfilter-0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc37babfec1baaae6dd231c24c48526/jetified-fabulousfilter-0.0.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc37babfec1baaae6dd231c24c48526/jetified-fabulousfilter-0.0.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc37babfec1baaae6dd231c24c48526/jetified-fabulousfilter-0.0.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allattentionhere/fabulousfilter/0.0.5/e0aa111847956104ac8d32928b85bdddbd1c7237/fabulousfilter-0.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allattentionhere/fabulousfilter/0.0.5/2cdf808263645f9e044ac75e86fc4386aa255eea/fabulousfilter-0.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

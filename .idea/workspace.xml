@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d04c837-6cea-48b4-b98c-40efb883e1cb" name="Default Changelist" comment=" Version : 00.22.5750&#10; &#10;add BirthDate in Add tra" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ASC" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ASC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ASC" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ASC" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ASC" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="KuwaitRelase" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1YempcylSekBRTUlCoCDgQm6DG8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_24" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-09T08:28:16.327Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
+    <property name="android-custom-viewC:/Users/Other/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_RecyclerView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/Other/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/romaa/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/romaa/Desktop/backup/ASC/app/src/main/java/com/asc/yazy/core/CalenderView.java_SELECTED" value="CalenderView" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/romaa/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/romaa/Desktop/backup/ASC/app/src/main/java/com/asc/yazy/core/CalenderView.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.asc.yazy.activity" />
+      <recent name="com.example.asc.core" />
+      <recent name="com.example.asc.activitiy" />
+      <recent name="com.example.asc.views.activities" />
+      <recent name="com.example.asc.View" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\romaa\Desktop\backup\ASC\app\src\main\java" />
+    </key>
+    <key name="android.template.-1869455951">
+      <recent name="com.asc.yazy.fragment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\romaa\Desktop\backup\ASC\app\src\main\res\drawable" />
+      <recent name="C:\Users\romaa\Desktop\backup\ASC\app\src\main\res\layout" />
+      <recent name="C:\Users\romaa\Desktop\backup\ASC\app\src\main\assets" />
+      <recent name="C:\Users\romaa\Desktop\backup\ASC\app\src\main\res\layout-v28" />
+      <recent name="C:\Users\romaa\Desktop\backup\ASC\app\src\main\res\drawable-tvdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.asc.yazy.api.model" />
+      <recent name="com.asc.yazy.interfaces" />
+      <recent name="com.asc.yazy.core" />
+      <recent name="com.asc.yazy.adapter" />
+      <recent name="com.example.asc.api.model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.asc.yazy.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ASC.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="goSellSDKSample" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="goSellSDKSample" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ASC [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ASC:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ASC:app [signingReport]" />
+        <item itemvalue="Gradle.ASC [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d04c837-6cea-48b4-b98c-40efb883e1cb" name="Default Changelist" comment="" />
+      <created>1581589063771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581589063771</updated>
+    </task>
+    <task id="LOCAL-00185" summary=" Version : 00.18.3460&#10; &#10;add expration date of offers in OfferDetailsFragment and MultiOfferDetailsFragment">
+      <created>1604502712318</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1604502712318</updated>
+    </task>
+    <task id="LOCAL-00186" summary=" Version : 00.18.3500&#10; &#10;solve bugs">
+      <created>1604831403570</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831403571</updated>
+    </task>
+    <task id="LOCAL-00187" summary=" Version : 00.18.5560&#10; &#10;solve bugs">
+      <created>1604917847048</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1604917847052</updated>
+    </task>
+    <task id="LOCAL-00188" summary=" Version : 00.18.3460&#10; &#10;solve bugs">
+      <created>1605180512271</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1605180512275</updated>
+    </task>
+    <task id="LOCAL-00189" summary=" Version : 00.18.3460&#10; &#10;add dialog of success share">
+      <created>1605440208805</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1605440208806</updated>
+    </task>
+    <task id="LOCAL-00190" summary=" Version : 00.19.3460&#10; &#10;Finish SearchResultFragment edit and add FilterDialog and test its functionality convert Sort options to SortDialog">
+      <created>1605794481114</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1605794481114</updated>
+    </task>
+    <task id="LOCAL-00191" summary=" Version : 00.19.3400&#10; &#10; Start Editing SearchFragment">
+      <created>1605794592550</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1605794592550</updated>
+    </task>
+    <task id="LOCAL-00192" summary=" Version : 00.19.4000&#10; &#10;Edit addRate api ,, and edit Booking list model and display start and end date if it open trip and date selected">
+      <created>1605799944860</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1605799944860</updated>
+    </task>
+    <task id="LOCAL-00193" summary=" Version : 00.18.3690&#10; edit search fragment  ,, finish flight status">
+      <created>1606119932275</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1606119932278</updated>
+    </task>
+    <task id="LOCAL-00194" summary=" Version : 00.18.6890&#10; &#10;edit search design">
+      <created>1606122332685</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1606122332685</updated>
+    </task>
+    <task id="LOCAL-00195" summary=" Version : 00.18.3460">
+      <created>1606132755027</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1606132755027</updated>
+    </task>
+    <task id="LOCAL-00196" summary=" Version : 00.18.6500&#10; &#10;reload data of home when rescaduale trip date">
+      <created>1606826863137</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1606826863141</updated>
+    </task>
+    <task id="LOCAL-00197" summary=" Version : 00.18.3460&#10; edit traveler color and coheckout title">
+      <created>1606994367629</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1606994367631</updated>
+    </task>
+    <task id="LOCAL-00198" summary=" Version : 00.18.5000&#10; &#10;edit flight status on reschadule from trip details">
+      <created>1607246871177</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1607246871178</updated>
+    </task>
+    <task id="LOCAL-00199" summary=" Version : 00.19.99&#10; &#10;solve some bugs">
+      <created>1607598532172</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1607598532175</updated>
+    </task>
+    <task id="LOCAL-00200" summary=" Version : 00.19.5900&#10; &#10;solve issue of regression test and google account">
+      <created>1608043747540</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043747543</updated>
+    </task>
+    <task id="LOCAL-00201" summary=" Version : 00.19.5900&#10; &#10;solve issue of regression test and redesign login screen">
+      <created>1608122347588</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1608122347589</updated>
+    </task>
+    <task id="LOCAL-00202" summary=" Version : 00.19.5880&#10; &#10;edit rating id">
+      <created>1608545454617</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1608545454620</updated>
+    </task>
+    <task id="LOCAL-00203" summary=" Version : 00.20.2024&#10; &#10;refactor notification to be server side only and add mark all as read">
+      <created>1609774181349</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1609774181353</updated>
+    </task>
+    <task id="LOCAL-00204" summary=" Version : 00.20.2080&#10; &#10;Finish Customer Support System option">
+      <created>1609851352454</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1609851352455</updated>
+    </task>
+    <task id="LOCAL-00205" summary=" Version : 00.20.2190&#10; &#10;Add FAQs With its Question and answer Fragment">
+      <created>1609947261268</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1609947261268</updated>
+    </task>
+    <task id="LOCAL-00206" summary=" Version : 00.20.2222&#10; &#10;Edit trip details cases">
+      <created>1610278909176</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1610278909176</updated>
+    </task>
+    <task id="LOCAL-00207" summary=" Version : 00.20.2240&#10; &#10;Solve bug on promo code to not get total trip with negaitve">
+      <created>1610279872949</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1610279872949</updated>
+    </task>
+    <task id="LOCAL-00208" summary=" Version : 00.20.2240&#10; &#10;Update push notification paramters">
+      <created>1610282731979</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1610282731979</updated>
+    </task>
+    <task id="LOCAL-00209" summary=" Version : 00.20.2280&#10; &#10;fix bugs">
+      <created>1610527094198</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1610527094202</updated>
+    </task>
+    <task id="LOCAL-00210" summary=" Version : 00.20.2280&#10; &#10;fix bugs">
+      <created>1610873640784</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1610873640784</updated>
+    </task>
+    <task id="LOCAL-00211" summary=" Version : 00.20.2280&#10; &#10;fix bugs in retest">
+      <created>1610890696051</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1610890696051</updated>
+    </task>
+    <task id="LOCAL-00212" summary=" Version : 00.20.2300&#10; &#10;fix bugs in retest round 2">
+      <created>1610971649481</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1610971649485</updated>
+    </task>
+    <task id="LOCAL-00213" summary=" Version : 00.20.2700&#10; &#10;fix bugs in retest round 3">
+      <created>1611580310905</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1611580310905</updated>
+    </task>
+    <task id="LOCAL-00214" summary=" Version : 00.20.2700&#10; &#10;fix bugs in retest round 3 sprint 1">
+      <created>1611580343275</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1611580343275</updated>
+    </task>
+    <task id="LOCAL-00215" summary=" Version : 00.20.2800&#10; &#10;Finish points system edits ,, and finish upload ticket to trip">
+      <created>1611667430420</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1611667430421</updated>
+    </task>
+    <task id="LOCAL-00216" summary=" Version : 00.22.2980&#10; &#10;show flight ticket in status 7 only">
+      <created>1611669051839</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1611669051840</updated>
+    </task>
+    <task id="LOCAL-00217" summary=" Version : 00.22.3700&#10; &#10;solve bug in Points Dialog after Registration">
+      <created>1612169427430</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1612169427432</updated>
+    </task>
+    <task id="LOCAL-00218" summary=" Version : 00.22.2300&#10; &#10;last updates of fix bugs">
+      <created>1612258513002</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1612258513003</updated>
+    </task>
+    <task id="LOCAL-00219" summary=" Version : 00.22.5750&#10; &#10;solve bugs of notification">
+      <created>1613051455608</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1613051455609</updated>
+    </task>
+    <task id="LOCAL-00220" summary=" Version : 00.22.5750&#10; &#10; last updates">
+      <created>1614260467711</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1614260467713</updated>
+    </task>
+    <task id="LOCAL-00221" summary=" Version : 00.24.5770&#10; &#10;Change Domain">
+      <created>1614753619147</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1614753619147</updated>
+    </task>
+    <task id="LOCAL-00222" summary=" Version : 00.22.5750&#10; &#10;solve bugs">
+      <created>1614827881458</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1614827881459</updated>
+    </task>
+    <task id="LOCAL-00223" summary=" Version : 00.24.5790&#10; &#10;solve bugs">
+      <created>1614838866501</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1614838866501</updated>
+    </task>
+    <task id="LOCAL-00224" summary=" Version : 00.22.5750&#10; &#10;solve bugs of notification">
+      <created>1614869933167</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1614869933167</updated>
+    </task>
+    <task id="LOCAL-00225" summary=" Version : 00.22.5750&#10;&#10;edit notification string">
+      <created>1615195959986</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1615195959987</updated>
+    </task>
+    <task id="LOCAL-00226" summary=" Version : 00.22.5750&#10; &#10;solve bugs">
+      <created>1615304323669</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1615304323670</updated>
+    </task>
+    <task id="LOCAL-00227" summary=" Version : 00.22.5750&#10; &#10;add clear filter option and edit title of image in offer details">
+      <created>1617786888013</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1617786888014</updated>
+    </task>
+    <task id="LOCAL-00228" summary=" Version : 00.23.5750&#10; &#10;Add expiry date in Profile ,edit profile ,Add traveller ,edit traveller ,add booking data &#10;Add BirthDate on Add traveler and edit travelers">
+      <created>1617870052076</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1617870052076</updated>
+    </task>
+    <task id="LOCAL-00229" summary=" Version : 00.23.5800&#10; &#10;add birthDate">
+      <created>1617881318174</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1617881318174</updated>
+    </task>
+    <task id="LOCAL-00230" summary=" Version : 00.24.5750&#10; &#10;add BirthDate in Add travelers ,edit travelers and booking data , and attach it to Date selector dialog">
+      <created>1617896069554</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1617896069554</updated>
+    </task>
+    <task id="LOCAL-00231" summary=" Version : 00.23.5790&#10; &#10;Add Search by continent integration and edit design">
+      <created>1618274668049</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1618274668050</updated>
+    </task>
+    <task id="LOCAL-00232" summary=" Version : 00.24.5750&#10; &#10; Edit notifiaction settings screen">
+      <created>1618306126991</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1618306126992</updated>
+    </task>
+    <task id="LOCAL-00233" summary=" Version : 00.25.5750&#10; &#10;add List destination in home screen ,, promoted offers cell and search result offer">
+      <created>1618355764890</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1618355764892</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/romaa/Desktop/backup/ASC/app" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Version : 00.20.2222&#10; &#10;Edit trip details cases" />
+    <MESSAGE value=" Version : 00.20.2240&#10; &#10;Solve bug on promo code to not get total trip with negaitve" />
+    <MESSAGE value=" Version : 00.20.2240&#10; &#10;Update push notification paramters" />
+    <MESSAGE value=" Version : 00.20.2280&#10; &#10;fix bugs" />
+    <MESSAGE value=" Version : 00.20.2280&#10; &#10;fix bugs in retest" />
+    <MESSAGE value=" Version : 00.20.2300&#10; &#10;fix bugs in retest round 2" />
+    <MESSAGE value=" Version : 00.20.2700&#10; &#10;fix bugs in retest round 3" />
+    <MESSAGE value=" Version : 00.20.2700&#10; &#10;fix bugs in retest round 3 sprint 1" />
+    <MESSAGE value=" Version : 00.20.2800&#10; &#10;Finish points system edits ,, and finish upload ticket to trip" />
+    <MESSAGE value=" Version : 00.22.2980&#10; &#10;show flight ticket in status 7 only" />
+    <MESSAGE value=" Version : 00.22.3700&#10; &#10;solve bug in Points Dialog after Registration" />
+    <MESSAGE value=" Version : 00.22.2300&#10; &#10;last updates of fix bugs" />
+    <MESSAGE value=" Version : 00.22.5750&#10; &#10; last updates" />
+    <MESSAGE value=" Version : 00.24.5770&#10; &#10;Change Domain" />
+    <MESSAGE value=" Version : 00.24.5790&#10; &#10;solve bugs" />
+    <MESSAGE value=" Version : 00.22.5750&#10; &#10;solve bugs of notification" />
+    <MESSAGE value=" Version : 00.22.5750&#10;&#10;edit notification string" />
+    <MESSAGE value=" Version : 00.22.5750&#10; &#10;solve bugs" />
+    <MESSAGE value=" Version : 00.22.5750&#10; &#10;add clear filter option and edit title of image in offer details" />
+    <MESSAGE value=" Version : 00.23.5750&#10; &#10;Add expiry date in Profile ,edit profile ,Add traveller ,edit traveller ,add booking data &#10;Add BirthDate on Add traveler and edit travelers" />
+    <MESSAGE value=" Version : 00.23.5800&#10; &#10;add birthDate" />
+    <MESSAGE value=" Version : 00.24.5750&#10; &#10;add BirthDate in Add travelers ,edit travelers and booking data , and attach it to Date selector dialog" />
+    <MESSAGE value=" Version : 00.23.5790&#10; &#10;Add Search by continent integration and edit design" />
+    <MESSAGE value=" Version : 00.24.5750&#10; &#10; Edit notifiaction settings screen" />
+    <MESSAGE value=" Version : 00.25.5750&#10; &#10;add List destination in home screen ,, promoted offers cell and search result offer" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Version : 00.25.5750&#10; &#10;add List destination in home screen ,, promoted offers cell and search result offer" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/views/fragments/Home.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/ViewModel/OffersViewModel.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library/src/main/java/company/tap/gosellapi/internal/fragments/GoSellOTPScreenFragment.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/OfferDetailsFragment.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/TravelAgencyFragment.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/TravelAgencyFragment.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/TermsFragment.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/TermsFragment.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/AboutUsFragment.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/SearchFragment.java</url>
+          <line>550</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/FavoritesFragment.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/FavoritesFragment.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/RegisterFragment.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ChangePasswordFragment.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/EditProfileFragment.java</url>
+          <line>293</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/search/OffersSearchDataSource.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/search/OffersSearchDataSource.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/search/OffersSearchDataSource.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/OfferDetailsFragment.java</url>
+          <line>627</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/HomeFragment.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/HomeFragment.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/HomeFragment.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/HomeFragment.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ResetPasswordFragment.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ResetPasswordFragment.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ResetPasswordFragment.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ResetPasswordFragment.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ResetPasswordFragment.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/favorite/FavoritePagedAdapter.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/offers/OffersPagedAdapter.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/offers/OffersPagedAdapter.java</url>
+          <line>297</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/offers/OffersPagedAdapter.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/offers/OffersPagedAdapter.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/OfferDetailsFragment.java</url>
+          <line>359</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/offers/OffersPagedAdapter.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/VerificationFragment.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/SearchResultFragment.java</url>
+          <line>271</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/service/ServiceFireBaseMessaging.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/core/CalenderEnhancedDialog.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/SearchFragment.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/SearchFragment.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/service/BEBookingTask.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/service/BEBookingTask.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/service/BEBookingTask.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/VerificationFragment.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ForgetPassFragment.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/ForgetPassFragment.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/adapter/CitiesViewPagerAdapter.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/BookingAdultsInfoFragment.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/core/SelectDateDialog.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/TripDetailsFragment.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/adapter/BookingAdapter.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/CanceledTripsFragment.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/CanceledTripsFragment.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/PendingTripsFragment.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/PendingTripsFragment.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/activity/HesabeActivity.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/BookingContactInfoFragment.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/HomeFragment.java</url>
+          <line>583</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/BookingAdultsInfoFragment.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/BookingAdultsInfoFragment.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/RatingFragment.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationSettingsFragment.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/api/pagination/favorite/FavoriteDataSource.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/EditProfileFragment.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/MultiOfferDetailsFragment.java</url>
+          <line>450</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/core/CalenderView.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/core/CalenderView.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/AboutUsFragment.java</url>
+          <line>64</line>
+          <properties class="com.asc.yazy.fragment.AboutUsFragment" method="loadDate" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/fragment/NotificationsFragment.java</url>
+          <line>278</line>
+          <properties class="com.asc.yazy.fragment.NotificationsFragment" method="loadPagedData" />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/interfaces/OnTripListener.java</url>
+          <line>6</line>
+          <properties class="com.asc.yazy.interfaces.OnTripListener" method="onTripClick">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/asc/yazy/activity/SplashActivity.java</url>
+          <line>106</line>
+          <properties class="com.asc.yazy.activity.SplashActivity" method="initFireBase">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

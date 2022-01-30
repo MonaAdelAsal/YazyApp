@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:contentDescription="@string/icon"
+                    app:srcCompat="@drawable/ic_registeration" />
+
+                <TextView
+                    android:id="@+id/tvTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivLogo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/registeration"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:id="@+id/llData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTxt"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="22dp"
+                    android:background="@drawable/shadow"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/shadow_not_soild_gray">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/icon"
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_user_name" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColorHint="@color/trolleyGrey"
+                            app:hintTextColor="@color/trolleyGrey">
+
+                            <EditText
+                                android:id="@+id/etUsername"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:background="@null"
+                                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                                android:drawablePadding="10dp"
+                                android:gravity="start|center"
+                                android:hint="@string/username_1"
+                                android:imeOptions="actionNext"
+                                android:importantForAutofill="no"
+                                android:inputType="text"
+                                android:maxLength="45"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/trolleyGrey"
+                                android:textSize="14sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/please_enter_name_as_written_in_passport_and_it_is_your_responsibility_to_enter_it_right"
+                        android:textColor="@color/trolleyGrey" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/shadow_not_soild_gray">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/icon"
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_email" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="center"
+                            android:textColorHint="@color/trolleyGrey">
+
+                            <EditText
+                                android:id="@+id/etEmail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:background="@null"
+                                android:drawablePadding="10dp"
+                                android:gravity="start|center"
+                                android:hint="@string/email_optional"
+                                android:imeOptions="actionNext"
+                                android:importantForAutofill="no"
+                                android:inputType="textEmailAddress"
+                                android:maxLength="45"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/trolleyGrey"
+                                android:textSize="14sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/shadow_not_soild_gray">
+
+                        <ImageView
+                            android:id="@+id/imgCurrentPass"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/icon"
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_pass" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_toStartOf="@id/imgShowCurrent"
+                            android:layout_toEndOf="@id/imgCurrentPass"
+                            android:textColorHint="@color/trolleyGrey">
+
+                            <EditText
+                                android:id="@+id/etCreatePassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:background="@null"
+                                android:drawablePadding="10dp"
+                                android:gravity="start|center"
+                                android:hint="@string/create_password"
+                                android:imeOptions="actionNext"
+                                android:importantForAutofill="no"
+                                android:inputType="textPassword"
+                                android:maxLength="45"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/trolleyGrey"
+                                android:textSize="14sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <ImageView
+                            android:id="@+id/imgShowCurrent"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/icon"
+                            android:padding="10dp"
+                            android:tag="shown"
+                            app:srcCompat="@drawable/show_pw_1" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tvHint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/password_should_contain_one_capital_letter_one_number_and_minimum_length_is_8_characters"
+                        android:textColor="@color/trolleyGrey"
+                        android:textSize="12sp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/shadow_not_soild_gray"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imgShowRepeatPass"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/icon"
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_pass" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_toStartOf="@+id/imgShowRepeat"
+                            android:layout_toEndOf="@id/imgShowRepeatPass"
+                            android:textColorHint="@color/trolleyGrey">
+
+                            <EditText
+                                android:id="@+id/etRepeatPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:background="@null"
+                                android:drawablePadding="10dp"
+                                android:gravity="start|center"
+                                android:hint="@string/repeat_password"
+                                android:imeOptions="actionDone"
+                                android:importantForAutofill="no"
+                                android:inputType="textPassword"
+                                android:maxLength="45"
+                                android:textAlignment="viewStart"
+
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/trolleyGrey"
+                                android:textSize="14sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <ImageView
+                            android:id="@+id/imgShowRepeat"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/icon"
+                            android:padding="10dp"
+                            android:tag="shown"
+                            app:srcCompat="@drawable/show_pw_1" />
+
+                    </RelativeLayout>
+
+
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/sold_blue"
+                        android:text="@string/create_account"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

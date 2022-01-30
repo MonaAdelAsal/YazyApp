@@ -1,0 +1,476 @@
+<resources>
+
+    <!-- Constants -->
+    <string name="app_name" translatable="false">يازي</string>
+    <string name="taps" translatable="false">TAPS</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="icon" translatable="false">icon</string>
+    <string name="hesabe">Hesabe</string>
+
+
+    <!-- Values-->
+    <string name="explore_cities">استكشف المدن</string>
+    <string name="favorites">المفضلات</string>
+    <string name="flying_from">الطيران من</string>
+    <string name="flying_to">الطيران الي</string>
+    <string name="select_month">أختر الشهر</string>
+    <string name="travel_agency_optional">وكالة السفر</string>
+    <string name="search">البحث</string>
+    <string name="search_offers">بحث العروض</string>
+    <string name="currency">دينار كويتي</string>
+    <string name="available_trips">الرحلات المتاحة</string>
+    <string name="go_to">الي</string>
+    <string name="from">من</string>
+    <string name="about_us">من نحن</string>
+    <string name="menu">القائمة</string>
+
+    <string name="terms">البنود والاحكام</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="flights">رحلات الطيران</string>
+    <string name="hotels">الفنادق</string>
+    <string name="details">التفاصيل</string>
+    <string name="hint">تلميح</string>
+    <string name="fill_one">أمل خانة واحدة علي الاقل</string>
+    <string name="des_req">الواجهة مطلوبة</string>
+    <string name="book_now">أحجز ألان</string>
+    <string name="travel_agency">وكالة السفر</string>
+    <string name="call_us_on">أتصل بنا علي</string>
+    <string name="email">البريد الألكتروني</string>
+    <string name="head_office_address">عنوان المكتب الرئيسي</string>
+    <string name="working_hours">ساعات العمل</string>
+    <string name="check_our_offers">انظر علي عروضنا</string>
+    <string name="book_your_trip">أحجز رحلتك</string>
+    <string name="name">الاسم كما هو مكتوب فى الباسبور</string>
+    <string name="mobile">رقم الهاتف</string>
+    <string name="passengers">الركاب</string>
+    <string name="personal_info">المعلومات الشخصية</string>
+    <string name="total_cost">اجمالي التكلفة</string>
+    <string name="pay">أدفع الان</string>
+    <string name="adults">البالغين</string>
+    <string name="children">الاطفال</string>
+    <string name="payment_confirmed">تم تاكيد الدفع!</string>
+    <string name="transaction_id">رقم المعاملة</string>
+    <string name="back_to_home">العودة إلى القائمة الرئيسية</string>
+    <string name="please_check_your_internet_connection">الرجاء التحقق من اتصال الانترنت الخاص بك</string>
+    <string name="no_internet_connection">لا يوجد انترنت</string>
+    <string name="no_favorites_found">لا يوجد مفضلات بعد</string>
+    <string name="browse_offers">تصفح العروض</string>
+    <string name="you_do_not_have_any_trips_in_your_favorites">ليس لديك أي رحلات في المفضلات .</string>
+    <string name="no_results_found">لم يتم العثور على نتائج</string>
+    <string name="we_couldn_t_find_any_results_change_selected_filters_or_try_later">لم نتمكن من العثور على أي نتائج. قم بتغيير اختيارات البحث المحددة أو حاول لاحقًا.</string>
+    <string name="required">مطلوب</string>
+    <string name="valid_name">الرجاء إدخال اسمك بالكامل كما هو مكتوب في جواز السفر</string>
+    <string name="mobileNumberLengthError">رقم الهاتف يجب ان يتكون من 11 رقم </string>
+    <string name="mobileNumberNotValid">مطلوب رقم هاتف صالح</string>
+    <string name="valid_mail_is_required">مطلوب البريد الإلكتروني صالح</string>
+
+    <string name="jan">يناير</string>
+    <string name="feb">فبراير</string>
+    <string name="mar">مارس</string>
+    <string name="apr">أبريل</string>
+    <string name="cancel">ألغاء</string>
+    <string name="ok">حسنا</string>
+    <string name="may">مايو</string>
+    <string name="jun">يونيو</string>
+    <string name="jul">يوليو</string>
+    <string name="aug">أغسطس</string>
+    <string name="sep">سبتمبر</string>
+    <string name="oct">أكتوبر</string>
+    <string name="nov">نوفمبر</string>
+    <string name="dec">ديسمبر</string>
+    <string name="_2020">2020</string>
+    <string name="can_not_perfrom">لا يمكن تنفيذ هذا الإجراء الآن</string>
+    <string name="no_offers_available">لا توجد عروض متاحة</string>
+    <string name="there_s_no_offers_available_now">لا توجد عروض متاحة الآن</string>
+
+
+    <string name="contact_us">تواصل معنا</string>
+    <string name="tv_phone">00000000000</string>
+    <string name="tv_email">email@rmail.com</string>
+    <string name="tv_location">Doki, Cairo , Egypt</string>
+    <string name="your_payment_has_been_confirmed_a_confirmation_email_has_been_sent_to">تم تأكيد الدفع الخاص بك. تم إرسال بريد إلكتروني للتأكيد إلى</string>
+    <string name="try_again">حاول مرة أخري</string>
+    <string name="canceled">تم الألغاء</string>
+    <string name="invalid_customer">عميل غير صالح</string>
+    <string name="invalid_transaction_mode">وضع عملية غير صالحة</string>
+    <string name="some_thing_went_wrong">حدث خطأ ما ، حاول مرة أخرى لاحقًا</string>
+    <string name="card_details_invalid">تفاصيل البطاقة غير صالحة....</string>
+    <string name="secction_falied_to_start">فشل بدء الجلسة.........</string>
+    <string name="processing">جارى المعالجة</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="select_your_country">أختار دولتك</string>
+    <string name="your_country">دولتك</string>
+    <string name="submit">أرسال</string>
+    <string name="no_notifications">لا يوجد اشعارات !</string>
+    <string name="there_s_no_new_notification_yet">لا يوجد اشعارات بعد</string>
+
+    <string name="April">أبريل</string>
+    <string name="January">يناير</string>
+    <string name="February">فبراير</string>
+    <string name="March">مارس</string>
+    <string name="May">مايو</string>
+    <string name="June">يونيو</string>
+    <string name="July">يوليو</string>
+    <string name="August">أغسطس</string>
+    <string name="September">سبتمبر</string>
+    <string name="October">أكتوبر</string>
+    <string name="November">نوفمبر</string>
+    <string name="December">ديسمير</string>
+    <string name="one">-01</string>
+    <string name="two">-02</string>
+    <string name="three">-03</string>
+    <string name="four">-04</string>
+    <string name="five">-05</string>
+    <string name="six">-06</string>
+    <string name="seven">-07</string>
+    <string name="eight">-08</string>
+    <string name="nine">-09</string>
+    <string name="ten">-10</string>
+    <string name="eleven">-11</string>
+    <string name="twelve">-12</string>
+
+
+    <string name="travel_company">شركة سفريات</string>
+    <string name="password">كلمة السر</string>
+    <string name="remember_me">تذكرنى</string>
+    <string name="forget_password">هل نسيت كلمة السر ؟</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="don_t_have_an_account">ليس لديك حساب ؟</string>
+    <string name="register">سجل حساب جديد</string>
+    <string name="skip">تخطي</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="enter_your_mobile_number_to_receive_a_verification_code">أدخل رقم هاتفك المحمول لتلقي رمز التحقق</string>
+    <string name="get_code">احصل على الكود</string>
+    <string name="registeration">تسجيل حساب جديد</string>
+
+    <string name="create_password">إنشاء كلمة السر</string>
+    <string name="repeat_password">تاكيد كلمة السر</string>
+    <string name="create_account">أنشئ حسابا جديدا</string>
+    <string name="email_optional">بريد الكترونى (اختيارى)</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="enter_4_digit_number_that_sent_to">أدخل الرقم المكون من 6 أرقام المرسلة إلي</string>
+    <string name="verify">تاكيد</string>
+    <string name="resend_code">اعادة ارسال</string>
+    <string name="forgot_password">هل نسيت كلمة السر؟</string>
+    <string name="enter_your_registered_mobile_number_to_reset_your_password">أدخل رقم هاتفك المحمول المسجل لإعادة تعيين كلمة السر الخاصة بك</string>
+    <string name="username">الاسم كامل</string>
+    <string name="error">خطأ</string>
+    <string name="flight_class">الدرجة</string>
+    <string name="toatal">الاجمالى</string>
+    <string name="tickets">التذاكر</string>
+
+    <string name="mobile_requ">رقم الهاتف مطلوب</string>
+    <string name="password_requ">كلمة السر مطلوبة</string>
+    <string name="old_password_requ">كلمة السر القديمة مطلوبة</string>
+    <string name="user_name_requ">اسم المستخدم مطلوب</string>
+    <string name="passwords_not_match">كلمتى السر غير متطابقتان</string>
+    <string name="passwords_same">كلمة السر الحالية والجديدة متطابقتان</string>
+
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="enter_your_new_password">قم بادخال كلمة السر</string>
+    <string name="change_password">تغيير كلمة السر</string>
+
+    <string name="no_trips_yet">لا يوجد رحلات حتى الان</string>
+    <string name="you_don_t_have_any_scheduled_trips_yet">ليست لديك أي رحلات مجدولة حتى الآن</string>
+    <string name="explore_our_trips">قم باستكشاف رحلاتنا</string>
+    <string name="my_trips">رحلاتى</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="my_info">بياناتى</string>
+    <string name="profile">حسابى</string>
+    <string name="change">تغيير</string>
+    <string name="current_password">كلمة السر الحالية</string>
+    <string name="update">تحديث</string>
+    <string name="repeat_new_password">اعادة كلمة السر</string>
+    <string name="edit">تعديل</string>
+    <string name="my_favorites">المفضلة</string>
+    <string name="edit_profile">تعديل بياناتى</string>
+    <string name="trip_details">تفاصيل الرحلة</string>
+    <string name="airlines">خطوط طيران</string>
+    <string name="no_profile_yet">لا يوجد حساب الى الان</string>
+    <string name="you_have_to_login_register_first">يجد ان تقوم بتسجيل الدخول / أنشئ حسابا جديدا اولا</string>
+    <string name="prease_back">الرجاء النقر فوق "السابق" مرة أخرى للخروج</string>
+    <string name="flight_class_text">فئة الرحلة</string>
+    <string name="price_range">نطاق السعر</string>
+    <string name="basic_search">البحث الأساسي</string>
+    <string name="advanced_search">البحث المتقدم</string>
+    <string name="sucess">الحجز الناجح</string>
+    <string name="suc">اتم الحجز بنجاح اوفر</string>
+    <string name="enj">استمتع </string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="apply">تطبيق</string>
+    <string name="most_recent">الأحدث</string>
+    <string name="most_liked">الأكثر إعجابا</string>
+    <string name="price_low_to_high">السعر من الاقل للاعلى</string>
+    <string name="price_high_to_low">السعر من الاعلى للاقل</string>
+    <string name="room">الغرفة</string>
+    <string name="less_liked">أقل إعجابا</string>
+    <string name="clear_all">امسح الكل</string>
+    <string name="clear_notifications">مسح الاشعارات</string>
+    <string name="are_you_sure_you_want_to_clear_all_your_notifications">هل أنت متأكد أنك تريد مسح جميع الإشعارات؟</string>
+    <string name="you_will_not_be_able_to_recover_them_afterwards">لن تتمكن من استعادتها بعد ذلك</string>
+    <string name="you_can_t_add_to_favorites">لا يمكنك الاضافة للمفضة</string>
+    <string name="login_if_you_want_to_add_this_offer_to_favorites">قم بتسجيل الدخول لتستطيع اضافه هذا العرض للمفضلة</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="my_account_info">معلومات حسابي</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="confirmation">تاكيد</string>
+    <string name="are_you_sure_you_want_to_logout">هل أنت متأكد أنك تريد تسجيل الخروج ؟</string>
+    <string name="booking_date">تاريخ الحجز</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="you_can_t_book_this_offer_without_login">لا يمكنك حجز هذا العرض بدون تسجيل الدخول!</string>
+    <string name="to">الى</string>
+    <string name="child">طفل</string>
+    <string name="adult">بالغ</string>
+
+    <string name="no_app_found">لم يتم العثور علي تطبيق</string>
+    <string name="SelectMonth">اختار الشهر</string>
+
+    <string name="start_date">تاريخ البداية</string>
+    <string name="end_date">تاريخ النهاية</string>
+
+    <string name="endDate_notvalid">يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء</string>
+    <string name="start_date_invalid">يجب أن يكون تاريخ البدء قبل تاريخ الانتهاء</string>
+
+
+    <string name="_12_years">11+ سنوات</string>
+    <string name="_2_12_years">2–11 سنوات</string>
+    <string name="childreen">الاكفال</string>
+    <string name="nationality">الجنسية</string>
+    <string name="passport_number">رقم جواز السفر</string>
+    <string name="civil_id"> رقم البطاقة المدنية</string>
+    <string name="missing_data">بيانات مفقودة</string>
+    <string name="can_travel">لا يمكن السفر بدون شخص بالغ على الأقل</string>
+    <string name="are_you_one_of_the_travellers">هل انت من المسافرين؟</string>
+    <string name="if_you_are_one_of_the_travellers_we_ll_fill_your_registered_data_to_facilitate_your_booking_process">إذا كنت أحد المسافرين ، فسنملأ بياناتك المسجلة لتسهيل عملية الحجز</string>
+    <string name="no_i_m_not">لا أنا لست كذلك</string>
+    <string name="yes">نعم</string>
+    <string name="valid_destination">برجاء كتابة اسم دولة صحيح</string>
+    <string name="edit_account_info">تعديل بيانات الحساب</string>
+    <string name="manage_your_notifications">إدارة الإشعارات الخاصة بك</string>
+    <string name="notifications_settings">إدارة الإشعارات</string>
+    <string name="mark_all_as_read">قراءة الكل</string>
+    <string name="cant_connect">لايوجد اتصال انترنت</string>
+    <string name="next">التالي</string>
+    <string name="we_will_use_this_number_to_send_you_sms_with_important_information_on_your_flight">"سنستخدم هذا الرقم لإرسال رسائل نصية قصيرة تحتوي على معلومات مهمة حول رحلتك. "</string>
+    <string name="contact_info">بيانات التواصل</string>
+    <string name="user_session">انتهت صلاحية  المستخدم ، يرجى تسجيل الدخول مرة أخرى</string>
+
+    <string name="intro_search">\  البحث   \</string>
+    <string name="intro_search_details">\  املاء واحد و اكثر  \n من مدخلات البحث \n\</string>
+
+    <string name="intro_search_page">\  اضغط علي ايكونة البحث  \n وابدء البحث عن رحلتك  \n\</string>
+
+    <string name="intro_trip">\  رحلة   \</string>
+    <string name="intro_trip_details">\  اضغط علي الرحلة التي  \n تريد ان تعرف المذيد عنها \n\</string>
+
+    <string name="intro_book">\  الحجز   \</string>
+    <string name="book_offer_details">\n أضغط علي ايقونة الحجز \n لبدء حجز رحلتك\n</string>
+
+    <string name="book_count">\  اختر عدد المسافرين   \n  البالغين و الاطفال \n\</string>
+
+    <string name="book_info_adult">\n ادخل بيانات البالغين \n  طبقا لجوزات السفر\n</string>
+
+    <string name="book_info_child">\n ادخل بيانات الاطقال \n  طبقا لجوزات السفر\n</string>
+
+    <string name="book_contact_info">\n ادخل بيانات الاتصال \n  لارسال التفاصيل اليه\n</string>
+
+
+    <string name="book_success">\n تهانينا رحتك قد \n تم حجزها بنجاح . استمتع بها\n</string>
+
+    <string name="retrive">لا يمكن استخراج البيانات</string>
+    <string name="accept">العرض يقبل فقط جوازات السفر</string>
+    <string name="search_history">سجل البحث</string>
+    <string name="line">-</string>
+    <string name="add_traveller">أضافة مسافر</string>
+    <string name="adult_trav">مسافر بالغ</string>
+    <string name="child_tra">مسافر طفل</string>
+    <string name="save">حفظ</string>
+
+    <string name="frequent_travellers">المسافرون الدائمون</string>
+    <string name="no_frequent_travellers">لا مسافرين دائمين</string>
+    <string name="you_don_t_have_any_registered_travellers_yet">ليس لديك أي مسافرين مسجلين حتى الآن</string>
+    <string name="edit_traveller">تعديل المسافر</string>
+    <string name="if_there_are_new_travelers_select_next_to_add_their_data">إذا كان هناك مسافرون جدد ، فحدد التالي لإضافة بياناتهم</string>
+    <string name="select_the_travellers">اختر المسافرون</string>
+    <string name="save_data">حفظ البايانات</string>
+
+    <string name="multi_city_trip">رحلة متعددة المدن</string>
+    <string name="trip_cities">مدن الرحلة</string>
+    <string name="nationality_missing">برجاء اختيار الجنسية</string>
+
+    <string name="accommodation_services">خدمات الإقامة</string>
+    <string name="reviews">المراجعات</string>
+    <string name="rate_your_experience">قم بتقييم تجربتك</string>
+    <string name="your_opinion_matters_to_us">رأيك مهم بالنسبه لنا !</string>
+    <string name="leave_a_message_if_you_want">يمكنك ترك رسالة اذا اردت....</string>
+
+    <string name="select_date">أختيار التاريخ</string>
+    <string name="valid_from">هذة العرض متاح من  </string>
+    <string name="select_travel_date">أختر تاريح السفر</string>
+    <string name="proceed">متابعة</string>
+    <string name="select_later">أختر لاحقا</string>
+    <string name="you_can_book_your_tickets_amp_select_the_travel_date_later"><![CDATA[يمكنك حجز التذاكر و اختيار تاريخ السفر في وقت لاحق ]]></string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="confirmed">تم تأكيد</string>
+    <string name="sorry_offer_not_valid">عذرا هذا العرض غير صالح في هذا الوقت</string>
+    <string name="waiting_for_date_selection">في انتظار اختيار التاريخ</string>
+    <string name="thanks">شكرا</string>
+    <string name="opinion">رأيك مهم جدا بالنسبة لنا. سيطلع فريق وكالة السفر على ملاحظاتك</string>
+
+    <string name="pay_for_me">أدفع الي</string>
+    <string name="reshare_link">مشاركة الرابط مرة اخري</string>
+    <string name="we_re_sorry_you_ve_to_select_the_trip_date_before_sharing_the_link">نحن آسفون! عليك تحديد تاريخ الرحلة قبل مشاركة الرابط.</string>
+    <string name="sorry">عفوا!</string>
+    <string name="gift_me">نشر رابط الدفع</string>
+    <string name="not_supported_apps">لم يتم التعرف علي تطبيقات يمكنها اتمام العملية علي هذة الهاتف</string>
+    <string name="wait_payment">في انتظار عملية الدفع</string>
+    <string name="wait_date_selection">في انتظار اختيار تاريخ بدء الرحلة</string>
+    <string name="completed">اكتملت</string>
+
+    <string name="share_link_not_retrived">لم يتم الحصول علي رابط المشاركة بنجاح من الخادم</string>
+    <string name="trip_duration">علما بأن مدة االرحلة</string>
+    <string name="days">ايام</string>
+
+    <string name="nationalityReq">الجنسية مطلوبة</string>
+    <string name="civilReq">برجاء ادخال رقم البطاقة المدنية</string>
+    <string name="passportReq">رقم جواز السفر مطلوب</string>
+    <string name="cancel_your_trip">إلغاء رحلتك</string>
+    <string name="cancel_trip">إلغاء الرحلة</string>
+    <string name="you_re_about_to_cancel_your_trip_you_have_to_know_that_you_can_not_recover_it_back">أنت على وشك إلغاء رحلتك. عليك أن تعلم أنة لا يمكنك استعادتها مرة أخرى.</string>
+    <string name="cancellation_policy">سياسة الإلغاء</string>
+    <string name="cancel_trip_question">إلغاء الرحلة؟</string>
+    <string name="your_trip_will_be_cancelled">سيتم إلغاء رحلتك.</string>
+    <string name="confirm">تاكيد</string>
+    <string name="data">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</string>
+
+    <string name="change_date">تغيير التاريخ</string>
+    <string name="selected_day_before_current">لا يمكنك اختيار يوم قبل اليوم </string>
+
+    <string name="trip_terms_policies">شروط وسياسات الرحلة</string>
+    <string name="terms_policies">سياسات والشروط</string>
+    <string name="you_can_share_this_link_with_anyone_to_pay_the_trip_for_you">يمكنك مشاركة هذا الرابط مع أي شخص لدفع تكاليف الرحلة</string>
+    <string name="share">مشاركة</string>
+    <string name="trip_type">نوع الرحلة</string>
+    <string name="multi_city">مدن متعددة</string>
+    <string name="single_city">مدينة واحدة</string>
+    <string name="open">مفتوح</string>
+    <string name="fixed">ثابت</string>
+    <string name="trip_duration_2">مواعيد الرحلة</string>
+    <string name="offer_valid_until">هذة الرحلة صالحة حتى تاريخ </string>
+    <string name="offer_valid_from">هذة الرحلة صالحة من تاريخ </string>
+    <string name="done">تم !</string>
+    <string name="shared_successfully">تمت مشاركة رابط الدفع الخاص بك بنجاح.</string>
+    <string name="long_shortcut">long test</string>
+    <string name="short_shortcut">test</string>
+    <string name="sorting">الترتيب</string>
+    <string name="view">طريقة العرض</string>
+    <string name="filters">التصفيات</string>
+    <string name="kuwait">الكويت</string>
+
+    <string name="your_next_trip">رحلتك القادمة</string>
+    <string name="Days">ايام</string>
+
+
+    <string name="checkout">الدفع</string>
+    <string name="trip_info">تفاصيل الرحلة</string>
+    <string name="select">اختر</string>
+
+    <string name="travelers_info">تفاصيل المسافرون</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="pay_by_myself">أدفع لنفسي</string>
+    <string name="share_payment_link_with_others">مشاركة رابط الدفع مع الاخرين</string>
+
+    <string name="not_selected_yet">لم يتم الاختيار بعد</string>
+    <string name="total_only">الاجمالي</string>
+    <string name="get_ready">استعد لمغامرة جديدة!</string>
+    <string name="its_today">رحلتك اليوم</string>
+    <string name="day">يوم</string>
+    <string name="destination">الوجهة</string>
+    <string name="travel_date">تاريخ السفر</string>
+    <string name="return_date">تاريخ العودة</string>
+    <string name="grid_view">عرض شبكي</string>
+    <string name="lieaner_view">عرض خطي</string>
+    <string name="coud_not_comunicate">تعذر الاتصال بخوادمنا ، يرجى المحاولة مرة أخرى لاحقًا</string>
+    <string name="travellers">مسافرين</string>
+    <string name="remove_traveller">مسح المسافر</string>
+    <string name="do_you_want_to_remove_this_traveller">هل تريد مسح هذا المسافر ؟</string>
+    <string name="reservation_in_progress">الحجز قيد التنفيذ</string>
+    <string name="paid_wating_reservation">تم الدفع وفى انتظار الحجز</string>
+    <string name="reservation_conffirmed">تم الحجز</string>
+    <string name="username_1">اسم المستخدم</string>
+    <string name="faqs">الأسئلة الشائعة</string>
+    <string name="ask_your_question">أسال سؤالك</string>
+    <string name="if_you_have_any_question_about_this_trip_send_it_to_us_and_we_ll_send_you_an_email_with_the_answer">اذا كان لديك اى تساؤل بخصوص هذه الرحلة , برجاء ارسال سؤالك وسيتم الاجابة عليه على البريد الخاص بك </string>
+    <string name="send">ارسال</string>
+    <string name="enter_your_email">اكتب البريد الالكترونى</string>
+    <string name="leave_your_question_here">اكتب سؤالك ةنا</string>
+    <string name="ask_question">أسال سؤال </string>
+    <string name="email_required">البريد الالكترونى مطلوب للحصول على الاجابة علية</string>
+    <string name="question_required">برجاء اضافة سؤالك</string>
+    <string name="thank_you">شكرا لك!</string>
+    <string name="your_question_has_been_sent_and_we_ll_send_you_an_email_with_the_answer_as_soon_as_possible">تم ارسال سؤالك وسيتم ارسال الاجابة على البريد الخاص بك فى اسرع وقت ممكن</string>
+    <string name="okay">موافق</string>
+    <string name="cant_ask">لا يمكنك ارسال سؤال</string>
+    <string name="login_to_ask">اذا كنت تريد ارسال سؤال برجاء تسجيل الدخول</string>
+
+    <string name="promoted_offers">العروض المروجة</string>
+    <string name="all_offers">كل العروض</string>
+    <string name="no_more">لا مزيد من المسافرين للاختيار</string>
+    <string name="apply_promo_code">أدخل الرمز الترويجي هنا</string>
+    <string name="promo_code">الرمز الترويجي</string>
+    <string name="travelers_details">تفاصيل المسافرين</string>
+    <string name="remove">إزالة</string>
+    <string name="reservation_progress">الحجز قيد التنفيذ</string>
+    <string name="discount_greater">قيمة الخصم اكبر من سعر الرحلة</string>
+    <string name="flight">رحلة الطيران</string>
+    <string name="hotel">الفندق</string>
+
+    <string name="my_points">نقاطي</string>
+    <string name="pts">نقطة</string>
+    <string name="points">نقطة</string>
+    <string name="you_can_exchange">يمكنك تبديل</string>
+    <string name="points_with">نقطة مع</string>
+    <string name="discount_promo_code_valid_for_using_on_any_upcoming_trip_we_will_send_you_the_promo_code_on_your_email">٪ كود خصم صالح للاستخدام في أي رحلة قادمة.</string>
+    <string name="redeem">تخليص</string>
+    <string name="we_will_send_you_the_promo_code_on_your_email">سوف نرسل لك الرمز الترويجي على بريدك الإلكتروني.</string>
+    <string name="off_on_your_next_trip">في رحلتك القادمة</string>
+    <string name="we_ll_send_you_the_promo_code_on_your_email_to_use_it_on_your_next_trip">سنرسل لك الرمز الترويجي على بريدك الإلكتروني لاستخدامة في رحلتك القادمة</string>
+    <string name="get_it">احصل علية</string>
+    <string name="no_thanks">لا شكرا</string>
+    <string name="save_2">وفر</string>
+    <string name="show_flight_tickets">عرض تذاكر الطيران</string>
+    <string name="Congratulations">تهانينا!</string>
+    <string name="you_got">لقد حصلت</string>
+    <string name="won_points">نقطة. في كل مرة تحجز فيها رحلة ستحصل على المزيد من النقاط.</string>
+    <string name="u_cant_redem">لا يمكنك الحصول علي هذة الهدية</string>
+    <string name="you_point_less">نقاطك أقل من</string>
+    <string name="won_points_reg">نقطة لتسجيلك .و في كل مرة تحجز فيها رحلة ستحصل على المزيد من النقاط.</string>
+    <string name="error_in_server">خطاء في الخادم</string>
+
+    <string name="win_points">فوز بنقاط</string>
+    <string name="win_next">حدد تاريخ رحلتك لربح نقاط يمكنك استبدالها لاحقًا لحجز رحلاتك التالية.</string>
+    <string name="ticket_not_ready">التذاكر ليست جاهزة بعد ، حاول لاحقًا</string>
+    <string name="mute_push_notification">اعدادات الاشعارات</string>
+
+    <string name="successfully">تم بنجاح</string>
+    <string name="no_data_changed">لم يتم تغير البيانات</string>
+    <string name="please_enter_name_as_written_in_passport_and_it_is_your_responsibility_to_enter_it_right">الرجاء إدخال اسمك كما هو مكتوب في جواز سفرك وتقع على عاتقك مسؤولية إدخاله بشكل صحيح</string>
+    <string name="valid_password">أدخل كلمة السر بطريقة صحيحة
+    </string>
+    <string name="password_should_contain_one_capital_letter_one_number_and_minimum_length_is_8_characters">يجب أن تحتوي كلمة المرور على حرف كبير واحد ورقم واحد والحد الأدنى للطول هو 8 أحرف</string>
+    <string name="continent">القاره</string>
+    <string name="clear">الغاء الكل</string>
+    <string name="expiry_date">تاريخ انتهاء جواز السفر</string>
+    <string name="birthdate">تاريخ الميلاد</string>
+    <string name="view_all">أغرض الكل</string>
+    <string name="africa_offers">عروض افريقيا</string>
+    <string name="antartica_offers">عروض القاره القطبية الجنوبية</string>
+    <string name="asia_offers">عروض اسيا</string>
+    <string name="australia_offers">عروض استراليا</string>
+    <string name="europe_offers">عروض اوروبا</string>
+    <string name="north_america_offers">عروض امريكا الشماليه</string>
+    <string name="south_america_offers">عروض امريكا الجنوبيه</string>
+    <string name="sea_view">مطل علي البحر</string>
+    <string name="no_ch">لا يوجد تغيرات</string>
+</resources>

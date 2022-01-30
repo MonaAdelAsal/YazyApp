@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="company.tap.gosellapi"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+14-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:8:22-75
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:9:5-66
+15-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:9:22-63
+16
+17    <application android:supportsRtl="true" >
+17-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:12:5-34:19
+17-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:12:18-44
+18        <activity
+18-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:13:9-16:58
+19            android:name="company.tap.gosellapi.internal.activities.GoSellPaymentActivity"
+19-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:14:13-70
+20            android:theme="@style/TransparentCompat"
+20-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:15:13-53
+21            android:windowSoftInputMode="adjustResize" />
+21-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:16:13-55
+22        <activity
+22-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:17:9-19:56
+23            android:name="company.tap.gosellapi.internal.activities.GoSellCardAddressActivity"
+23-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:18:13-74
+24            android:theme="@style/GoSellSDKAppTheme" />
+24-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:19:13-53
+25        <activity
+25-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:20:9-22:56
+26            android:name="company.tap.gosellapi.internal.activities.CurrenciesActivity"
+26-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:21:13-67
+27            android:theme="@style/GoSellSDKAppTheme" />
+27-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:22:13-53
+28        <activity
+28-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:23:9-25:56
+29            android:name="company.tap.gosellapi.internal.activities.BaseActionBarActivity"
+29-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:24:13-70
+30            android:theme="@style/GoSellSDKAppTheme" />
+30-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:25:13-53
+31        <activity
+31-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:26:9-29:56
+32            android:name="company.tap.gosellapi.internal.activities.WebPaymentActivity"
+32-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:27:13-67
+33            android:screenOrientation="portrait"
+33-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:28:13-49
+34            android:theme="@style/GoSellSDKAppTheme" />
+34-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:29:13-53
+35        <activity
+35-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:30:9-32:56
+36            android:name="company.tap.gosellapi.internal.activities.CountriesActivity"
+36-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:31:13-66
+37            android:theme="@style/GoSellSDKAppTheme" />
+37-->C:\Users\romaa\Desktop\backup\ASC\library\src\main\AndroidManifest.xml:32:13-53
+38    </application>
+39
+40</manifest>

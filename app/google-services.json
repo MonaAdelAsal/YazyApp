@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "927577522969",
+    "firebase_url": "https://xtravel-3bb0d.firebaseio.com",
+    "project_id": "xtravel-3bb0d",
+    "storage_bucket": "xtravel-3bb0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927577522969:android:35c01d929d8fced9783b88",
+        "android_client_info": {
+          "package_name": "com.asc.yazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927577522969-6btef7rf62f9dsd7lepqqop8jhvc7r3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkckUp_D20lJnKBZN291ag0YxT9P-88xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927577522969-6btef7rf62f9dsd7lepqqop8jhvc7r3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927577522969-lv0vm9bofudrm3bgbvptb1tfiillatrc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ASC.ASCIOS.yazi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927577522969:android:eb7074bea463f8c4783b88",
+        "android_client_info": {
+          "package_name": "com.example.asc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927577522969-opksq9lge49iflj4ds8bods7evgdcofs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asc",
+            "certificate_hash": "266566a289aef23fe91ab89b4c352ef1aa3ed9cd"
+          }
+        },
+        {
+          "client_id": "927577522969-5khosabhpvofbekfmbsff85n4q8bpvci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asc",
+            "certificate_hash": "b0fe85b286a1188a83314e59cce1c24119c8d495"
+          }
+        },
+        {
+          "client_id": "927577522969-hnqhcsdsrksmjbts93na7ocsh19he3q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asc",
+            "certificate_hash": "24dc3c519b0e02a17f8dce2ba90a4608f3491993"
+          }
+        },
+        {
+          "client_id": "927577522969-6btef7rf62f9dsd7lepqqop8jhvc7r3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkckUp_D20lJnKBZN291ag0YxT9P-88xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927577522969-6btef7rf62f9dsd7lepqqop8jhvc7r3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927577522969-lv0vm9bofudrm3bgbvptb1tfiillatrc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ASC.ASCIOS.yazi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

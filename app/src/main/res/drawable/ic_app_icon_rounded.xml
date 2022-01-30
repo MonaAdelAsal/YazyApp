@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="512dp"
+    android:height="512dp"
+    android:autoMirrored="true"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path android:pathData="M256.24,511.4L256.24,511.4c-141.39,0 -256,-114.61 -256,-256v0c0,-141.38 114.61,-256 256,-256h0c141.38,0 256,114.61 256,256v0C512.24,396.79 397.62,511.4 256.24,511.4z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="718.3342"
+                android:endY="255.4021"
+                android:startX="151.9556"
+                android:startY="255.4021"
+                android:type="linear">
+                <item
+                    android:color="#FFF94338"
+                    android:offset="0" />
+                <item
+                    android:color="#FFF94338"
+                    android:offset="0.2883" />
+                <item
+                    android:color="#FFFA6960"
+                    android:offset="0.6888" />
+                <item
+                    android:color="#FFFB8E88"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFD3C8"
+        android:pathData="M374.86,247.83v83.52c0,38.94 -16.61,55.55 -55.55,55.55h-8.09l-8.79,19.2c-3.15,6.75 -6.55,12.61 -10.12,17.83h26.99c59.71,0 92.59,-32.88 92.59,-92.59V194.47c0,-8.31 -0.7,-16.04 -1.96,-23.29L374.86,247.83z" />
+    <path
+        android:fillColor="#FFD3C8"
+        android:pathData="M351.64,86.67l-95.61,223l-45.97,-106.36h-57.39l75.72,155.33l-5.41,11.72c-6.01,11.11 -12.35,14.99 -25.26,14.99c-7.05,0 -14.09,-0.31 -21.36,-1.3c-27.07,-4.42 -38.95,-21.24 -38.95,-53.99V193.95c0,-38.72 16.52,-55.24 55.24,-55.24h96.61l15.79,-36.83h-112.4c-59.37,0 -92.07,32.7 -92.07,92.07v136.11c0,53.21 26.33,84.91 74.52,90.93l0,0.07c12.53,1.58 25.04,3.07 37.36,3.07c29.44,0 43.86,-6.31 56.48,-33.35L408.12,86.67H351.64z" />
+</vector>

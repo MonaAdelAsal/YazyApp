@@ -1,0 +1,148 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+    dataBinding {
+        enabled = true
+    }
+        compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        applicationId "com.asc.yazy"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 6
+        versionName "0.6"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:21.1.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //crash analytics
+    implementation 'com.google.firebase:firebase-core:18.0.3'
+    implementation 'com.google.firebase:firebase-analytics:18.0.3'
+    implementation 'com.google.firebase:firebase-crashlytics:17.4.1'
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.7.1'
+    //Room
+    implementation "androidx.room:room-runtime:2.2.6"
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    //shimmer
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    //ViewPager
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'com.duolingo.open:rtl-viewpager:1.0.3'
+
+    // view model
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation "android.arch.lifecycle:viewmodel:1.1.1"
+    //adding paging
+    implementation "android.arch.paging:runtime:1.0.1"
+
+    //lottie
+    implementation 'com.airbnb.android:lottie:3.6.0'
+    //keyboard listener
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
+    //Animation
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+
+    //countries mobile code
+    implementation 'com.hbb20:ccp:2.4.0'
+    implementation 'com.github.joielechong:countrycodepicker:2.4.1'
+    //rounded images
+    implementation 'com.github.zjywill:roundedcornerimageview:1.1.0'
+    //verification Code
+    implementation 'com.alimuzaffar.lib:pinentryedittext:2.0.6'
+    //dynamic link
+    implementation 'com.google.firebase:firebase-dynamic-links:19.1.1'
+    //seekBar
+    implementation 'vn.nms.dseekbar:DMSeekBar:1.0.0'
+    //expand view
+    implementation 'net.cachapa.expandablelayout:expandablelayout:2.9.2'
+    //incrementer
+    implementation "ru.tinkoff.scrollingpagerindicator:scrollingpagerindicator:1.0.6"
+    //fab view
+    implementation 'com.allattentionhere:fabulousfilter:0.0.5'
+    //InstaBug
+    implementation 'com.instabug.library:instabug:9.1.4'
+    //prettyTime
+    implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+    //authentication
+    implementation 'com.google.firebase:firebase-auth:20.0.4'
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    implementation 'androidx.browser:browser:1.3.0'
+
+    //showCaseView
+    implementation 'com.github.mreram:showcaseview:1.1'
+    implementation 'me.toptas.fancyshowcase:fancyshowcaseview:1.3.0'
+    //scan passport
+    implementation(name:'scanner', ext:'aar')
+    implementation 'com.rmtheis:tess-two:9.1.0'
+    implementation 'com.otaliastudios:cameraview:2.2.0'
+    implementation group: 'org.slf4j', name: 'slf4j-android', version: '1.7.28'
+   /* implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation('com.microblink:blinkid:5.6.0@aar') {
+      transitive = true
+    }
+*/
+    //AppCentre
+    def appCenterSdkVersion = '3.3.0'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+
+    //view pager indicator
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
+    //view pager transaction
+    implementation 'com.github.kungfucat:ViewPagerTransformerLibrary:v1.2.0'
+
+    implementation 'com.commit451:PhotoView:1.2.4'
+
+    implementation 'com.github.lzyzsd:circleprogress:1.2.1'
+
+    //IV
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    //big image
+    implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+    //felxbox
+    implementation 'com.google.android:flexbox:2.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="offerData"
+            type="com.asc.yazy.api.model.ModelOffer" />
+
+        <variable
+            name="listener"
+            type="com.asc.yazy.interfaces.OnOfferItemListener" />
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/shadow_not_soild"
+        android:onClick="@{(v)-> listener.OnOfferClicked(offerData)}"
+        android:orientation="vertical">
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/loaderImage"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:layout_alignParentTop="true">
+
+
+            <com.comix.rounded.RoundedCornerImageView
+                android:id="@+id/OfferImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/icon"
+                android:scaleType="centerCrop"
+                android:src="@color/gray"
+                app:cornerBottomDisable="true"
+                app:cornerColor="@color/white"
+                app:cornerLeftDisable="false"
+                app:cornerRadius="5dp"
+                app:cornerRightDisable="false"
+                app:cornerTopDisable="false" />
+
+            <com.comix.rounded.RoundedCornerImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.1"
+                android:contentDescription="@string/icon"
+                android:scaleType="centerCrop"
+                android:src="@color/gray"
+                app:cornerBottomDisable="true"
+                app:cornerColor="@color/white"
+                app:cornerLeftDisable="false"
+                app:cornerRadius="5dp"
+                app:cornerRightDisable="false"
+                app:cornerTopDisable="false" />
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/loaderDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loaderImage"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:id="@+id/tvDestination"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|start"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:minWidth="100dp"
+                android:text="@{offerData.title}"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/loaderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loaderDestination"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:background="@color/gray"
+                android:gravity="center|start"
+                android:minWidth="200dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="RtlHardcoded" />
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/loaderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loaderImage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:gravity="center|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvCurrency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/gray"
+                    android:gravity="center|end"
+                    android:minWidth="40dp"
+                    android:text="@{offerData.currency}"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|end"
+                    android:background="@color/gray"
+                    android:gravity="start"
+                    android:maxLength="6"
+                    android:minWidth="40dp"
+                    android:text="@{offerData.price}"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+
+            </LinearLayout>
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/loaderFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loaderPrice"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/gray">
+
+            <LinearLayout
+                android:id="@+id/layoutLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                tools:ignore="RtlSymmetry,UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/likeAnimation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:contentDescription="@string/icon"
+                    app:srcCompat="@drawable/ic_favorite_unselected" />
+
+                <TextView
+                    android:id="@+id/tvFavCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:paddingBottom="2dp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp"
+                    tools:ignore="RtlHardcoded" />
+
+            </LinearLayout>
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+    </RelativeLayout>
+
+
+</layout>
+

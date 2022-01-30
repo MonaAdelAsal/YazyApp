@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <!-- TOP SEPARATOR -->
+    <View
+        android:id="@+id/topSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mercury"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- BOTTOM SEPARATOR -->
+    <View
+        android:id="@+id/bottomSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mercury"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <!--  PAYMENT OPTIONS -->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/paymentOptionIconsContainer"
+        android:layout_width="68dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomSeparator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cardSystemsRecyclerView"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--  CARD NUMBER / SCANNER-->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cardNumberContainer"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@id/expirationDateAndCVVContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/paymentOptionIconsContainer"
+        app:layout_constraintTop_toBottomOf="@id/topSeparator">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/cardNumberFieldTextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_vertical"
+            app:hintTextAppearance="@style/TextInputLayout.Hint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cardScannerButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginEnd="20dp">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/cardNumberField"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/edit_text_default_padding"
+                android:layout_marginLeft="@dimen/edit_text_default_padding"
+                android:hint="@string/edittext_hint_card_number"
+                android:inputType="numberDecimal"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                app:backgroundTint="@color/separator"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/cardScannerButton"
+            android:layout_width="54dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_card_scanner_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!-- EXPIRATION_DATE / CVV -->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/expirationDateAndCVVContainer"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@id/cardholderNameContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/paymentOptionIconsContainer"
+        app:layout_constraintTop_toBottomOf="@id/cardNumberContainer">
+
+        <!-- Expiration date -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/expirationDateContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="start"
+            android:hint="@string/edittext_hint_expiration_date"
+            android:paddingStart="3dp"
+            android:paddingLeft="3dp"
+            app:hintTextAppearance="@style/TextInputLayout.Hint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cvvFieldContainer"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <company.tap.gosellapi.internal.custom_views.ExpirationDateEditText
+                android:id="@+id/expirationDateField"
+                style="@style/bt_card_form_field"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                app:backgroundTint="@color/separator"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!--  CVV -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/cvvFieldContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start"
+            android:hint="@string/bt_form_hint_cvv"
+            app:hintTextAppearance="@style/TextInputLayout.Hint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/expirationDateContainer"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <company.tap.gosellapi.internal.custom_views.CvvEditText
+                android:id="@+id/cvvField"
+                style="@style/bt_card_form_field"
+                android:layout_marginEnd="@dimen/edit_text_default_padding"
+                android:layout_marginRight="@dimen/edit_text_default_padding"
+                android:backgroundTint="@color/separator"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/cardScannerButton"
+
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!-- NAME ON CARD-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/cardholderNameContainer"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:hintTextAppearance="@style/TextInputLayout.Hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/paymentOptionIconsContainer"
+        app:layout_constraintTop_toBottomOf="@id/expirationDateAndCVVContainer">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/cardholderNameField"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/transparent"
+            android:hint="@string/edittext_hint_name_on_card"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            app:backgroundTint="@color/separator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!--  Address on card-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/addressOnCardContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:hintTextAppearance="@style/TextInputLayout.Hint"
+        app:layout_constraintBottom_toTopOf="@id/saveCardContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/paymentOptionIconsContainer"
+        app:layout_constraintTop_toBottomOf="@id/cardholderNameContainer">
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/addressOnCardTextView"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_arrow_right_normal"
+            android:drawableRight="@drawable/ic_arrow_right_normal"
+            android:drawablePadding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/edittext_hint_address_on_card"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!--  Save Card Switch-->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/saveCardContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/bottomSeparator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/paymentOptionIconsContainer">
+
+        <View
+            android:id="@+id/saveCardTopSeparator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/separator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/saveCardDescriptionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:text="@string/textview_disclaimer_save_card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/saveCardSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/saveCardTopSeparator" />
+
+        <Switch
+            android:id="@+id/saveCardSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:checked="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/saveCardTopSeparator" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

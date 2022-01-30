@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.instabug.library:instabug-crash:9.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/94d824bbaa9336704edbab2f1fd798e4/jetified-instabug-crash-9.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/94d824bbaa9336704edbab2f1fd798e4/jetified-instabug-crash-9.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/94d824bbaa9336704edbab2f1fd798e4/jetified-instabug-crash-9.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/564365bc82ea34ebd838523fea9bfd00/jetified-instabug-crash-9.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8e7cb76c50decd2cf8682f6600a7a8d/jetified-instabug-crash-9.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8e7cb76c50decd2cf8682f6600a7a8d/jetified-instabug-crash-9.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8e7cb76c50decd2cf8682f6600a7a8d/jetified-instabug-crash-9.1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-crash/9.1.4/614bd149f64fa67806f43a4a8f4d9c3b29eb8ef9/instabug-crash-9.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-crash/9.1.4/614bd149f64fa67806f43a4a8f4d9c3b29eb8ef9/instabug-crash-9.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

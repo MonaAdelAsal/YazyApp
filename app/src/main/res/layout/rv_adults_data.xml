@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/sold_gray">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="16dp"
+                android:gravity="center|start"
+                android:text="@string/personal_info"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="@string/_2_12_years"
+                android:textColor="@color/cloudy_blue"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivScan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/ic_scan" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/shadow_not_soild_gray"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/icon"
+                android:padding="12dp"
+                app:srcCompat="@drawable/ic_user" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColorHint="@color/trolleyGrey">
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:background="@null"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:drawablePadding="10dp"
+                    android:gravity="start|center"
+                    android:hint="@string/name"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:maxLength="45"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/trolleyGrey"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/please_enter_name_as_written_in_passport_and_it_is_your_responsibility_to_enter_it_right"
+            android:textColor="@color/trolleyGrey"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:id="@+id/layoutNationality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/shadow_not_soild_gray"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/icon"
+                android:padding="12dp"
+                app:srcCompat="@drawable/ic_nationality" />
+
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/cpNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                app:ccpDialog_backgroundColor="@color/white"
+                app:ccpDialog_searchEditTextTint="@color/semiBlack"
+                app:ccpDialog_showPhoneCode="false"
+                app:ccpDialog_textColor="@color/semiBlack"
+                app:ccp_autoDetectLanguage="true"
+                app:ccp_defaultNameCode="KW"
+                app:ccp_flagBorderColor="@color/blue"
+                app:ccp_showFlag="true"
+                app:ccp_showFullName="true"
+                app:ccp_showNameCode="true"
+                app:ccp_showPhoneCode="false" />
+
+        </LinearLayout>
+<FrameLayout
+    android:id="@+id/BDLayout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp">
+
+    <RelativeLayout
+        android:id="@+id/llBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shadow_not_soild_gray">
+
+        <ImageView
+            android:id="@+id/img445"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/icon"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_date" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@id/img445"
+            android:textColorHint="@color/trolleyGrey">
+
+            <EditText
+                android:id="@+id/etBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:background="@null"
+                android:clickable="false"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:gravity="start|center"
+                android:hint="@string/birthdate"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:maxLength="45"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/trolleyGrey"
+                android:textSize="14sp"
+                tools:ignore="TextFields" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/BD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutChecker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:visibility="gone">
+
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkCivilID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center|start"
+                android:layout_toStartOf="@id/checkPassPort"
+                android:button="@drawable/cb_selecto_cir"
+                android:checked="false"
+                android:gravity="center|start"
+                android:padding="12dp"
+                android:text="@string/civil_id"
+                android:textAlignment="viewStart"
+                android:textColor="@color/brown_grey"
+                android:textSize="14sp"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkPassPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center|end"
+                android:button="@drawable/cb_selecto_cir"
+                android:checked="true"
+                android:gravity="center|end"
+                android:padding="12dp"
+                android:text="@string/passport_number"
+                android:textColor="@color/brown_grey"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutPassPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/shadow_not_soild_gray"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/icon"
+                android:padding="12dp"
+                app:srcCompat="@drawable/ic_passport" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColorHint="@color/trolleyGrey">
+
+                <EditText
+                    android:id="@+id/etPassPortNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:background="@null"
+                    android:digits="0123456789 "
+                    android:drawablePadding="10dp"
+                    android:gravity="start|center"
+                    android:hint="@string/passport_number"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:maxLength="45"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/trolleyGrey"
+                    android:textSize="14sp"
+                    tools:ignore="TextFields" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/llExpiryDate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/shadow_not_soild_gray">
+
+            <ImageView
+                android:id="@+id/img44"
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/icon"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_date" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/expire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_toEndOf="@id/img44"
+                android:textColorHint="@color/trolleyGrey">
+
+                <EditText
+                    android:id="@+id/etExpiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:gravity="start|center"
+                    android:hint="@string/expiry_date"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:maxLength="45"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/trolleyGrey"
+                    android:textSize="14sp"
+                    tools:ignore="TextFields" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <View
+                android:id="@+id/ex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/layoutCivilID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/shadow_not_soild_gray"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/icon"
+                android:padding="12dp"
+                app:srcCompat="@drawable/ic_passport" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColorHint="@color/trolleyGrey">
+
+                <EditText
+                    android:id="@+id/etCivilID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:gravity="start|center"
+                    android:hint="@string/civil_id"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:maxLength="45"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/trolleyGrey"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:padding="16dp"
+        android:text="@string/save_data"
+        android:textAlignment="viewStart"
+        android:textColor="@color/trolleyGrey"
+        android:textSize="14sp" />
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:sb_button_color="#f1f1f1"
+        app:sb_checked="true"
+        app:sb_checked_color="@color/blue"
+        app:sb_uncheck_color="#42221f1f" />
+</LinearLayout>
+    </LinearLayout>
+
+</layout>

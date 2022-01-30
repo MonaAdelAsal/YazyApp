@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="trip"
+            type="com.asc.yazy.api.model.ModelBooking" />
+
+        <variable
+            name="listener"
+            type="com.asc.yazy.interfaces.OnTripListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:onClick="@{(v)-> listener.onTripClick(trip)}"
+        android:orientation="horizontal">
+
+        <com.comix.rounded.RoundedCornerImageView
+            android:id="@+id/img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <io.supercharge.shimmerlayout.ShimmerLayout
+                android:id="@+id/loaderDestination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/tvDestination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray"
+                    android:minWidth="90dp"
+                    android:text="@{trip.title}"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </io.supercharge.shimmerlayout.ShimmerLayout>
+
+            <io.supercharge.shimmerlayout.ShimmerLayout
+                android:id="@+id/loaderDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray"
+                    android:minWidth="120dp"
+                    android:text="@{trip.date_from}"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </io.supercharge.shimmerlayout.ShimmerLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

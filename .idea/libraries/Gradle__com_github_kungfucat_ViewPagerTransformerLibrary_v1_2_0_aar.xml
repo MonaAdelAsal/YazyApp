@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kungfucat:ViewPagerTransformerLibrary:v1.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b60cb3c550846d49f1a78e1ed8de20b2/jetified-ViewPagerTransformerLibrary-v1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b60cb3c550846d49f1a78e1ed8de20b2/jetified-ViewPagerTransformerLibrary-v1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b60cb3c550846d49f1a78e1ed8de20b2/jetified-ViewPagerTransformerLibrary-v1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/888f18c2256e4d352290d869d9cd00f0/jetified-ViewPagerTransformerLibrary-v1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/888f18c2256e4d352290d869d9cd00f0/jetified-ViewPagerTransformerLibrary-v1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/888f18c2256e4d352290d869d9cd00f0/jetified-ViewPagerTransformerLibrary-v1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba0595e7b5ef7fb02e636685e0ca5c91/jetified-ViewPagerTransformerLibrary-v1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba0595e7b5ef7fb02e636685e0ca5c91/jetified-ViewPagerTransformerLibrary-v1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba0595e7b5ef7fb02e636685e0ca5c91/jetified-ViewPagerTransformerLibrary-v1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20de75472175a3a0f3d7ebb23bf4b448/jetified-ViewPagerTransformerLibrary-v1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20de75472175a3a0f3d7ebb23bf4b448/jetified-ViewPagerTransformerLibrary-v1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20de75472175a3a0f3d7ebb23bf4b448/jetified-ViewPagerTransformerLibrary-v1.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

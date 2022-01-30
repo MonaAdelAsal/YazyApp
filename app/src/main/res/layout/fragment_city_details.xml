@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="detailsData"
+            type="com.asc.yazy.api.model.CityModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rlGallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="370dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/vpImages"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <com.comix.rounded.RoundedCornerImageView
+                            android:id="@+id/img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:contentDescription="@string/icon"
+                            android:scaleType="centerCrop"
+                            android:src="@color/black"
+                            app:cornerBottomDisable="false"
+                            app:cornerColor="@color/white"
+                            app:cornerLeftDisable="false"
+                            app:cornerRadius="5dp"
+                            app:cornerRightDisable="false"
+                            app:cornerTopDisable="false" />
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tvGoTO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/tvDestination"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="@string/go_to"
+                        android:textColor="@color/white"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvDestination"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/tvFrom"
+                        android:layout_marginStart="20dp"
+                        android:text="@{detailsData.city_name}"
+                        android:textColor="@color/white"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvFrom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/from"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"
+                        tools:ignore="RtlHardcoded" />
+
+                    <TextView
+                        android:id="@+id/tvFromCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="18dp"
+                        android:layout_toEndOf="@+id/tvFrom"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/ivDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlGallery"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="3dp"
+                    android:contentDescription="@string/icon"
+                    app:srcCompat="@drawable/ic_calendar" />
+
+                <io.supercharge.shimmerlayout.ShimmerLayout
+                    android:id="@+id/loaderDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlGallery"
+                    android:layout_toEndOf="@+id/ivDate">
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/gray"
+                        android:gravity="end"
+                        android:maxLength="70"
+                        android:maxLines="1"
+                        android:minWidth="50dp"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                <io.supercharge.shimmerlayout.ShimmerLayout
+                    android:id="@+id/tvDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivDate"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="16dp">
+
+
+                    <TextView
+                        android:id="@+id/tvDescriptionDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|start"
+                        android:background="@color/gray"
+                        android:gravity="center|start"
+                        android:minWidth="400dp"
+                        android:text="@{detailsData.description}"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/trolleyGrey"
+                        android:textSize="13sp" />
+
+                </io.supercharge.shimmerlayout.ShimmerLayout>
+
+
+                <ImageView
+                    android:id="@+id/ivFlights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDescription"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/icon"
+                    app:srcCompat="@drawable/ic_flight" />
+
+                <TextView
+                    android:id="@+id/tvFlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDescription"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_toEndOf="@+id/ivFlights"
+                    android:text="@string/flights"
+                    android:textColor="@color/semiBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <io.supercharge.shimmerlayout.ShimmerLayout
+                    android:id="@+id/tvFlightName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFlight"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_toStartOf="@+id/tvClass"
+                    android:layout_toEndOf="@+id/ivFlights">
+
+
+                    <TextView
+                        android:id="@+id/tvFlightData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|start"
+                        android:background="@color/gray"
+                        android:gravity="center|start"
+                        android:maxLength="60"
+                        android:maxLines="1"
+                        android:minWidth="100dp"
+                        android:text="@{detailsData.airlines}"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/trolleyGrey"
+                        android:textSize="12sp" />
+
+                </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                <io.supercharge.shimmerlayout.ShimmerLayout
+                    android:id="@+id/tvClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDescription"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="16dp">
+
+
+                    <TextView
+                        android:id="@+id/tvClassData"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|end"
+                        android:background="@color/gray"
+                        android:gravity="center|end"
+                        android:maxLines="1"
+                        android:text="@{detailsData.flight_class}"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/semiBlack"
+                        android:textSize="14sp" />
+
+                </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                <ImageView
+                    android:id="@+id/ivHotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFlightName"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/icon"
+                    app:srcCompat="@drawable/ic_hotel" />
+
+                <TextView
+                    android:id="@+id/tvHotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFlightName"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_toEndOf="@+id/ivHotel"
+                    android:text="@string/hotels"
+                    android:textColor="@color/semiBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <io.supercharge.shimmerlayout.ShimmerLayout
+                    android:id="@+id/loaderHotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvHotel"
+                    android:layout_marginStart="8dp"
+
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_toStartOf="@+id/tvRoomType"
+                    android:layout_toEndOf="@+id/ivHotel">
+
+                    <TextView
+                        android:id="@+id/tvHotelData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|start"
+                        android:background="@color/gray"
+                        android:gravity="center|start"
+                        android:maxLength="60"
+                        android:maxLines="1"
+                        android:minWidth="100dp"
+                        android:text="@{detailsData.hotel}"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/trolleyGrey"
+                        android:textSize="12sp" />
+
+                </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                <io.supercharge.shimmerlayout.ShimmerLayout
+                    android:id="@+id/tvRoomType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFlightName"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="16dp">
+
+
+                    <TextView
+                        android:id="@+id/tvRoomTypeData"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|end"
+                        android:background="@color/gray"
+                        android:gravity="center|end"
+                        android:maxLines="1"
+                        android:text="@{detailsData.hotel_room_type}"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/semiBlack"
+                        android:textSize="14sp" />
+
+                </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                <TextView
+                    android:id="@+id/tvAccommodationServices"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loaderHotel"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="start"
+                    android:maxLength="70"
+                    android:maxLines="1"
+                    android:minWidth="50dp"
+                    android:text="@string/accommodation_services"
+                    android:textColor="@color/blue"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvAccommodationServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvAccommodationServices"
+                    android:layout_margin="8dp" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</layout>
+

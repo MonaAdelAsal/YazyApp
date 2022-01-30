@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.allattentionhere.fabulousfilter.AAH_FilterView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/layoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_solid_top"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="16dp"
+                    android:gravity="center|start"
+                    android:text="@string/sort_by"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="center|end"
+                    android:padding="16dp"
+                    android:text="@string/apply"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/gray" />
+
+
+            <FrameLayout
+                android:id="@+id/FlMostLike"
+                android:layout_width="match_parent"
+                android:layout_height="57dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="16dp"
+                    android:gravity="center|start"
+                    android:text="@string/most_liked"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+
+                <ImageView
+                    android:id="@+id/CheckMost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:contentDescription="@string/icon"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_select_off" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FlLessLike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="16dp"
+                    android:gravity="center|start"
+                    android:text="@string/less_liked"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/CheckLess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:contentDescription="@string/icon"
+                    android:gravity="center|end"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_select_off" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FlLowPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="16dp"
+                    android:gravity="center|start"
+                    android:text="@string/price_low_to_high"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+
+                <ImageView
+                    android:id="@+id/CheckLow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:contentDescription="@string/icon"
+                    android:gravity="center|end"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_select_off" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FlHighPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="16dp"
+                    android:gravity="center|start"
+                    android:text="@string/price_high_to_low"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+
+                <ImageView
+                    android:id="@+id/CheckHigh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:contentDescription="@string/icon"
+                    android:gravity="center|end"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_select_off" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </com.allattentionhere.fabulousfilter.AAH_FilterView>
+</layout>

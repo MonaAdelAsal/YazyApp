@@ -1,0 +1,33 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the background_splash properties like color etc -->
+
+    <item android:id="@android:id/background">
+        <shape
+
+            android:shape="line"
+            android:useLevel="true">
+            <stroke
+                android:width="3dp"
+                android:color="@color/colorAccent"
+                android:dashWidth="3dp"
+                android:dashGap="20dp" />
+        </shape>
+    </item>
+
+    <!-- Define the progress properties like start color, end color etc -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape
+
+                android:shape="line"
+                android:useLevel="true">
+                <stroke
+                    android:width="7dp"
+                    android:color="@color/colorAccent"
+                    android:dashWidth="4dp"
+                    android:dashGap="20dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

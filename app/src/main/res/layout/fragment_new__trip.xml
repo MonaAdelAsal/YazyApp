@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="trip"
+            type="com.asc.yazy.api.model.TDetailsModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/shadow_not_soild_cir"
+                android:contentDescription="@string/icon"
+                app:srcCompat="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/trip_details"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layoutHeader">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                android:paddingBottom="24dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shadow_not_soild"
+                    android:orientation="vertical">
+
+
+                    <com.comix.rounded.RoundedCornerImageView
+                        android:id="@+id/img"
+                        android:layout_width="match_parent"
+                        android:layout_height="157dp"
+                        android:contentDescription="@string/icon"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/holder"
+                        app:cornerBottomDisable="true"
+                        app:cornerColor="@color/white"
+                        app:cornerLeftDisable="false"
+                        app:cornerRadius="4dp"
+                        app:cornerRightDisable="false"
+                        app:cornerTopDisable="false" />
+
+                    <TextView
+                        android:id="@+id/tvMulti"
+                        android:layout_width="77dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_margin="14dp"
+                        android:background="@drawable/shadow_not_soild"
+                        android:gravity="center"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/multi_city_trip"
+                        android:textColor="@color/semiBlack"
+                        android:textSize="9sp"
+                        android:visibility="gone"
+                        tools:ignore="SmallSp" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/img"
+                        android:layout_alignTop="@id/changeDate"
+                        android:layout_alignBottom="@id/changeDate"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@id/changeDate"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="6dp"
+                            android:contentDescription="@string/icon"
+                            app:srcCompat="@drawable/ic_calendar"
+                            app:tint="@color/black" />
+
+                        <io.supercharge.shimmerlayout.ShimmerLayout
+                            android:id="@+id/loaderDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+
+                            <TextView
+                                android:id="@+id/tvDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/gray"
+                                android:gravity="end"
+                                android:maxLines="1"
+                                android:minWidth="50dp"
+                                android:textColor="#020202"
+                                android:textDirection="ltr"
+                                android:textSize="13sp" />
+
+                        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/btnSelectDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/img"
+                        android:layout_alignParentEnd="true"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="@string/select_date"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:visibility="invisible"
+                        tools:ignore="SmallSp" />
+
+
+                    <Button
+                        android:id="@+id/changeDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/img"
+                        android:layout_alignParentEnd="true"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="@string/change_date"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:visibility="invisible"
+                        tools:ignore="SmallSp" />
+
+                    <View
+                        android:id="@+id/line1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_below="@id/layoutDate"
+                        android:background="@color/gray_bold" />
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/line1"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/tvTitleName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:background="@color/gray"
+                            android:gravity="center|start"
+                            android:minWidth="100dp"
+                            android:text="@{trip.offer.title}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/loaderTitle"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="6dp"
+                            android:contentDescription="@string/icon"
+                            app:srcCompat="@drawable/ic_flight" />
+
+                        <io.supercharge.shimmerlayout.ShimmerLayout
+                            android:id="@+id/loaderCities"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+
+                            <TextView
+                                android:id="@+id/tvCities"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/gray"
+                                android:gravity="end"
+                                android:maxLines="1"
+                                android:minWidth="50dp"
+                                android:textColor="#020202"
+                                android:textSize="13sp" />
+
+                        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shadow_not_soild"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:text="@string/trip_details"
+                        android:textColor="#020202"
+                        android:textSize="17sp"
+                        android:textStyle="normal" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:id="@+id/ivFlights"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:contentDescription="@string/icon"
+                            app:srcCompat="@drawable/ic_flight_cir" />
+
+                        <TextView
+                            android:id="@+id/tvFlight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_toEndOf="@+id/ivFlights"
+                            android:text="@string/flights"
+                            android:textColor="@color/gray_bold"
+                            android:textSize="12sp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvFlights"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvFlight"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_toEndOf="@+id/ivFlights" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:id="@+id/ivHotel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:contentDescription="@string/icon"
+                            app:srcCompat="@drawable/ic_hotel_cir" />
+
+                        <TextView
+                            android:id="@+id/tvHotel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_toEndOf="@+id/ivHotel"
+                            android:text="@string/hotels"
+                            android:textColor="@color/gray_bold"
+                            android:textSize="12sp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvHotel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvHotel"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_toEndOf="@+id/ivHotel" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/ivTravelAgency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:contentDescription="@string/icon"
+                            app:srcCompat="@drawable/ic_travel_agency_cir" />
+
+                        <TextView
+                            android:id="@+id/tvTravelAgency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_toEndOf="@+id/ivTravelAgency"
+                            android:text="@string/travel_agency"
+                            android:textColor="@color/gray_bold"
+                            android:textSize="12sp" />
+
+                        <io.supercharge.shimmerlayout.ShimmerLayout
+                            android:id="@+id/loaderTravelAgency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvTravelAgency"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_toStartOf="@+id/ratingCount"
+                            android:layout_toEndOf="@+id/ivTravelAgency">
+
+                            <TextView
+                                android:id="@+id/tvTravelAgencyName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center|start"
+                                android:background="@color/gray"
+                                android:gravity="center|start"
+                                android:maxLength="60"
+                                android:maxLines="1"
+                                android:minWidth="80dp"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/trolleyGrey"
+                                android:textSize="14sp" />
+
+
+                        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ratingCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="8dp">
+
+
+                            <ImageView
+
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:contentDescription="@string/icon"
+                                android:padding="4dp"
+                                app:srcCompat="@drawable/ic_star" />
+
+                            <TextView
+                                android:id="@+id/tvRate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:background="@drawable/link_black"
+                                android:gravity="center"
+                                android:textColor="@color/semiBlack"
+                                android:textSize="15sp"
+                                tools:ignore="RtlSymmetry" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:contentDescription="@string/icon"
+                                app:srcCompat="@drawable/ic_details_arrow" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shadow_not_soild">
+
+                    <TextView
+                        android:id="@+id/tvTravellerDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:text="@string/travelers_details"
+                        android:textColor="#020202"
+                        android:textSize="17sp" />
+
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvTravellerDetails"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_toStartOf="@+id/loaderUserPhone">
+
+
+                        <TextView
+                            android:id="@+id/tvUsername"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:background="@color/gray"
+                            android:gravity="center|start"
+                            android:minWidth="100dp"
+                            android:text="@{trip.name}"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderUserPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvTravellerDetails"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="4dp">
+
+
+                        <TextView
+                            android:id="@+id/tvUserPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|end"
+                            android:background="@color/gray"
+                            android:gravity="center|end"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:minWidth="120dp"
+                            android:textAlignment="viewEnd"
+                            android:textColor="@color/brown_grey"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTickets"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderUserName"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_toStartOf="@+id/loaderTicketsNumber">
+
+
+                        <TextView
+                            android:id="@+id/tvTickets"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|start"
+                            android:background="@color/gray"
+                            android:gravity="center|start"
+                            android:minWidth="100dp"
+                            android:text="@string/tickets"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTicketsNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderUserName"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="4dp">
+
+
+                        <TextView
+                            android:id="@+id/tvTicketsNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|end"
+                            android:background="@color/gray"
+                            android:gravity="center|end"
+                            android:minWidth="120dp"
+                            android:textAlignment="viewEnd"
+                            android:textColor="@color/brown_grey"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTransID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderTripDate"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_toStartOf="@+id/loaderTransIDValue">
+
+
+                        <TextView
+                            android:id="@+id/tvTransID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|start"
+                            android:background="@color/gray"
+                            android:gravity="center|start"
+                            android:minWidth="100dp"
+                            android:text="@string/transaction_id"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTransIDValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderTripDate"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="12dp">
+
+
+                        <TextView
+                            android:id="@+id/tvLoaderIDValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|end"
+                            android:background="@color/gray"
+                            android:gravity="center|end"
+                            android:maxLength="20"
+                            android:minWidth="120dp"
+                            android:text="@{trip.transaction_id}"
+                            android:textAlignment="viewEnd"
+                            android:textColor="@color/brown_grey"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTripDateValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderTicketsNumber"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="12dp">
+
+
+                        <TextView
+                            android:id="@+id/TripDateValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|end"
+                            android:background="@color/gray"
+                            android:gravity="center|end"
+                            android:minWidth="120dp"
+                            android:textAlignment="viewEnd"
+                            android:textColor="@color/brown_grey"
+                            android:textDirection="ltr"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTripDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderTicketsNumber"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_toStartOf="@+id/loaderTripDateValue">
+
+
+                        <TextView
+                            android:id="@+id/tvTripDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center|start"
+                            android:background="@color/gray"
+                            android:gravity="center|start"
+                            android:minWidth="100dp"
+                            android:text="@string/booking_date"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                    <TextView
+                        android:id="@+id/tvTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderTransID"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_toStartOf="@+id/loaderTotalValue"
+                        android:text="@string/toatal"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+
+                    <io.supercharge.shimmerlayout.ShimmerLayout
+                        android:id="@+id/loaderTotalValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loaderTransIDValue"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp">
+
+
+                        <TextView
+                            android:id="@+id/tvTotalValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|end"
+                            android:background="@color/gray"
+                            android:gravity="center|end"
+                            android:maxLines="1"
+                            android:minWidth="100dp"
+                            android:text="@{trip.total+` `+trip.currency}"
+                            android:textAlignment="viewEnd"
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/bookLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <Button
+                        android:id="@+id/btnPay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/sold_blue"
+                        android:text="@string/pay"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnReShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/sold_blue"
+                        android:text="@string/reshare_link"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnShowTicket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/sold_blue"
+                    android:text="@string/show_flight_tickets"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@null"
+                    android:text="@string/cancel_trip"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</layout>

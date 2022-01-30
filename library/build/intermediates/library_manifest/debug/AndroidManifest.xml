@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="company.tap.gosellapi"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application android:supportsRtl="true">
+        <activity
+            android:name="company.tap.gosellapi.internal.activities.GoSellPaymentActivity"
+            android:theme="@style/TransparentCompat"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="company.tap.gosellapi.internal.activities.GoSellCardAddressActivity"
+            android:theme="@style/GoSellSDKAppTheme" />
+        <activity
+            android:name="company.tap.gosellapi.internal.activities.CurrenciesActivity"
+            android:theme="@style/GoSellSDKAppTheme" />
+        <activity
+            android:name="company.tap.gosellapi.internal.activities.BaseActionBarActivity"
+            android:theme="@style/GoSellSDKAppTheme" />
+        <activity
+            android:name="company.tap.gosellapi.internal.activities.WebPaymentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GoSellSDKAppTheme" />
+        <activity
+            android:name="company.tap.gosellapi.internal.activities.CountriesActivity"
+            android:theme="@style/GoSellSDKAppTheme" />
+    </application>
+
+</manifest>

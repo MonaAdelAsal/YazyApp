@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: :scanner:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/657ee2b4ead4b02abbdac221618a17f6/jetified-scanner/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/657ee2b4ead4b02abbdac221618a17f6/jetified-scanner/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/657ee2b4ead4b02abbdac221618a17f6/jetified-scanner/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b3f6b3a2d3a64946df3cbd5b6eaa38e/jetified-scanner/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b3f6b3a2d3a64946df3cbd5b6eaa38e/jetified-scanner/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b3f6b3a2d3a64946df3cbd5b6eaa38e/jetified-scanner/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

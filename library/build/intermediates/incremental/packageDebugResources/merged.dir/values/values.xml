@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr name="bt_expiration_date_dialog_divider" format="color" />
+    <attr name="bt_expiration_date_dialog_label" format="color" />
+    <attr name="bt_expiration_date_scrollbar_thumb_vertical" format="color" />
+    <attr name="bt_expiration_date_scrollbar_track_vertical" format="color" />
+    <attr name="bt_expiration_date_sheet_background" format="color" />
+    <color name="alabaster">#F7F7F7</color>
+    <color name="alto_gray">#DDDDDD</color>
+    <color name="aluminium">#A9ABB0</color>
+    <color name="azure_radiance">#0090FF</color>
+    <color name="azure_radiance_pressed">#0077FF</color>
+    <color name="black">#000000</color>
+    <color name="black1">#de000000</color>
+    <color name="bt_black">#001129</color>
+    <color name="bt_black_12">#1e000000</color>
+    <color name="bt_black_38">#61000000</color>
+    <color name="bt_black_54">#8a000000</color>
+    <color name="bt_black_87">#de000000</color>
+    <color name="bt_blue">#009bde</color>
+    <color name="bt_expiration_date_sheet_background_dark">#20272b</color>
+    <color name="bt_expiration_date_sheet_background_light">#eceff0</color>
+    <color name="bt_light_gray">#6d6d6d</color>
+    <color name="bt_white">#ffffff</color>
+    <color name="bt_white_12">#1effffff</color>
+    <color name="bt_white_38">#61ffffff</color>
+    <color name="bt_white_54">#8affffff</color>
+    <color name="bt_white_87">#deffffff</color>
+    <color name="dark_gray">#595959</color>
+    <color name="french_gray">#A8B5B5B5</color>
+    <color name="french_gray_new">#e6f7f7f7</color>
+    <color name="gallery">#EAEAEA</color>
+    <color name="gray">#888888</color>
+    <color name="greyish_brown" ns1:ignore="MissingDefaultResource">#535353</color>
+    <color name="mercury">#E1E1E1</color>
+    <color name="mischka">#D2D5DB</color>
+    <color name="oslo_gray">#8D8F93</color>
+    <color name="red">#EE0000</color>
+    <color name="security_text_color">#C9C9C9</color>
+    <color name="separator">#0C000000</color>
+    <color name="silver">#BFBFBF</color>
+    <color name="silver_light">#C9C9C9</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_red">#0DCC0000</color>
+    <color name="vibrant_green">#2ACE00</color>
+    <color name="vibrant_green_pressed">#1F9A00</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="action_bar_back_button_container_width">30dp</dimen>
+    <dimen name="action_bar_back_button_width">12dp</dimen>
+    <dimen name="action_bar_default_height">20dp</dimen>
+    <dimen name="action_bar_img_width">30dp</dimen>
+    <dimen name="bt_edit_text_icon_padding">24dp</dimen>
+    <dimen name="bt_expiration_date_item_selected_background_radius">2dp</dimen>
+    <dimen name="bt_expiration_date_item_text_size">13sp</dimen>
+    <dimen name="bt_expiration_date_sheet_height">260dp</dimen>
+    <dimen name="bt_expiration_date_sheet_label_padding_bottom">8dp</dimen>
+    <dimen name="bt_expiration_date_sheet_label_padding_top">8dp</dimen>
+    <dimen name="bt_expiration_date_sheet_left_right_margin">8dp</dimen>
+    <dimen name="bt_expiration_date_sheet_top_bottom_margin">8dp</dimen>
+    <dimen name="bt_input_text_size">16sp</dimen>
+    <dimen name="bt_margin">8dp</dimen>
+    <dimen name="bt_mobile_number_explanation_padding">53dp</dimen>
+    <dimen name="bt_no_edit_text_icon_padding">49dp</dimen>
+    <dimen name="cancel_icon_container_width">48</dimen>
+    <dimen name="cancel_icon_height">10dp</dimen>
+    <dimen name="cancel_icon_width">10dp</dimen>
+    <dimen name="cancel_payment_width">48dp</dimen>
+    <dimen name="corner_radius_small">8dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="edit_text_default_padding">-4dp</dimen>
+    <dimen name="edit_text_height_basic">48dp</dimen>
+    <dimen name="font_size_11sp">11sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_17sp">17sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="icon_height_basic">40dp</dimen>
+    <dimen name="icon_height_small">26dp</dimen>
+    <dimen name="icon_width_basic">40dp</dimen>
+    <dimen name="icon_width_small">26dp</dimen>
+    <dimen name="item_recent_container_height_basic">110dp</dimen>
+    <dimen name="item_recent_container_width_basic">100dp</dimen>
+    <dimen name="item_recent_height_basic">100dp</dimen>
+    <dimen name="item_recent_width_basic">100dp</dimen>
+    <dimen name="margin_basic_0dp">0dp</dimen>
+    <dimen name="margin_basic_10dp">10dp</dimen>
+    <dimen name="margin_basic_11dp">11dp</dimen>
+    <dimen name="margin_basic_13dp">16dp</dimen>
+    <dimen name="margin_basic_14dp">14dp</dimen>
+    <dimen name="margin_basic_15dp">15dp</dimen>
+    <dimen name="margin_basic_16dp">16dp</dimen>
+    <dimen name="margin_basic_19dp">19dp</dimen>
+    <dimen name="margin_basic_20dp">20dp</dimen>
+    <dimen name="margin_basic_23dp">23dp</dimen>
+    <dimen name="margin_basic_24dp">24dp</dimen>
+    <dimen name="margin_basic_25dp">25dp</dimen>
+    <dimen name="margin_basic_29dp">29dp</dimen>
+    <dimen name="margin_basic_3dp">3dp</dimen>
+    <dimen name="margin_basic_4dp">4dp</dimen>
+    <dimen name="margin_basic_6dp">4dp</dimen>
+    <dimen name="margin_basic_8dp">8dp</dimen>
+    <dimen name="margin_basic_9dp">9dp</dimen>
+    <dimen name="pay_btn_corners_radius">50dp</dimen>
+    <dimen name="pay_btn_margin_vertical">10dp</dimen>
+    <dimen name="pay_btn_min_height">44dp</dimen>
+    <dimen name="pay_btn_padding_horizontal">10dp</dimen>
+    <dimen name="pay_btn_padding_vertical">5dp</dimen>
+    <dimen name="pay_btn_text_size">14sp</dimen>
+    <dimen name="recycler_view_bottom_offset">29dp</dimen>
+    <dimen name="save_btn_corners_radius">0dp</dimen>
+    <dimen name="separator_width_basic">1dp</dimen>
+    <dimen name="title_lineSpacingExtra">7sp</dimen>
+    <dimen name="title_lineSpacingExtra_0">0sp</dimen>
+    <dimen name="title_lineSpacingExtra_11">11sp</dimen>
+    <dimen name="toolbar_height_basic">56dp</dimen>
+    <item name="pay_button_id" type="id" />
+    <item name="pay_layout_id" type="id" />
+    <item name="pay_security_icon_id" type="id" />
+    <integer name="slide_animation_duration">300</integer>
+    <string name="actionbar_title_address_on_card">Address on card</string>
+    <string name="app_name">GoSellAPI</string>
+    <string name="bt_cid">CID</string>
+    <string name="bt_cvc">CVC</string>
+    <string name="bt_cvn">CVN</string>
+    <string name="bt_cvv">CVV</string>
+    <string name="bt_cvv_invalid">%s is invalid</string>
+    <string name="bt_cvv_required">%s is required</string>
+    <string name="bt_expiration_invalid">Expiration date is invalid</string>
+    <string name="bt_expiration_required">Expiration date is required</string>
+    <string name="bt_form_hint_cvv">@string/bt_cvv</string>
+    <string name="bt_form_hint_expiration">Expiration Date</string>
+    <string name="bt_month">Month</string>
+    <string name="bt_year">Year</string>
+    <string name="btn_title_confirm">Confirm</string>
+    <string name="btn_title_save">Save</string>
+    <string name="business_icon_description">Business icon</string>
+    <string name="cancel">Cancel</string>
+    <string name="card_saved_before">Your card has been saved before, you can not save it twice!</string>
+    <string name="close">Close</string>
+    <string name="com.crashlytics.android.build_id" translatable="false" ns1:ignore="UnusedResources,TypographyDashes">3c4f4610-b1b5-45b0-9c5e-92542cb185e6</string>
+    <string name="delete_saved_card_button_Cancel">Cancel</string>
+    <string name="delete_saved_card_button_Delete">Delete</string>
+    <string name="delete_saved_card_msg">Are you sure you would like to delete card </string>
+    <string name="delete_saved_card_title">Delete Card</string>
+    <string name="device_has_aproblem_in_connectivity_manager">Device has a problem in Connectivity manager</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="edittext_hint_CVV">CVV</string>
+    <string name="edittext_hint_address_on_card">Address on Card</string>
+    <string name="edittext_hint_card_number">Card number</string>
+    <string name="edittext_hint_city">City</string>
+    <string name="edittext_hint_email">Email</string>
+    <string name="edittext_hint_expiration_date">MM/YY</string>
+    <string name="edittext_hint_line1">Line 1</string>
+    <string name="edittext_hint_line2">Line 2</string>
+    <string name="edittext_hint_name">Name</string>
+    <string name="edittext_hint_name_on_card">Name on card</string>
+    <string name="edittext_hint_phone_number">Phone number</string>
+    <string name="edittext_hint_state">State</string>
+    <string name="edittext_hint_zip_code">Zip code</string>
+    <string name="error_deleting_card_msg">The card can not be deleted right now. Please try it later.</string>
+    <string name="error_deleting_card_title">Sorry</string>
+    <string name="extra_fees_alert_confirm_message_cancel">Cancel</string>
+    <string name="extra_fees_alert_confirm_message_confirm">Confirm</string>
+    <string name="extra_fees_alert_confirm_message_title">Confirm extra charges</string>
+    <string name="extra_fees_alert_message">You will be charged an additional fee of %s for this type of payment, totaling an amount of %s </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="internet_connection_is_not_available">Internet connection is not available</string>
+    <string name="internet_connectivity_message">Internet connection not available</string>
+    <string name="internet_connectivity_title">Network Error</string>
+    <string name="key_sdkLanguage">key_sdkLanguage</string>
+    <string name="key_sdk_appearance_mode">key_sdk_appearance_mode</string>
+    <string name="key_sdk_transaction_currency">key_sdk_transaction_currency</string>
+    <string name="key_sdk_transaction_mode">key_sdk_transaction_mode</string>
+    <string name="otp_cancel_dialog">No</string>
+    <string name="otp_cancel_payment_message">Would you like to cancel payment</string>
+    <string name="otp_cancel_payment_title">Cancel Payment</string>
+    <string name="otp_confirm_dialog">Confirm</string>
+    <string name="pay">Pay</string>
+    <string name="payment_status_alert_declined">Declined</string>
+    <string name="payment_status_alert_failed">Failed</string>
+    <string name="payment_status_alert_invalid">Invalid</string>
+    <string name="payment_status_alert_successful">Successful</string>
+    <string name="payment_status_alert_timedout">TIMEDOUT</string>
+    <string name="payment_status_alert_unknown">UNKNOWN</string>
+    <string name="retry">Retry</string>
+    <string name="save_card">Save Card</string>
+    <string name="sdk_error">Error</string>
+    <string name="sdk_not_configure_correctly">SDK Not Configured Correctly</string>
+    <string name="search">Search</string>
+    <string name="select_currency_title">Select Currency</string>
+    <string name="textview_disclaimer_go_pay_checkouts">By enabling goPay, your card details will be saved with Tap Payments in order for you to get faster and more secure checkouts in multiple apps and websites</string>
+    <string name="textview_disclaimer_otp_sent_number">Please enter the OTP that has been sent to </string>
+    <string name="textview_disclaimer_save_card">For faster and more secure checkout, save your card</string>
+    <string name="textview_disclaimer_save_card_header_title">Enter Card Details</string>
+    <string name="textview_disclaimer_save_card_info">Saved cards will only be used with your approval, you can remove them at any time.</string>
+    <string name="textview_placeholder_last_four_digits">••••%s</string>
+    <string name="textview_title_address_on_card">Address on Card</string>
+    <string name="textview_title_country">Country</string>
+    <string name="textview_title_others">Others</string>
+    <string name="textview_title_personal_info">Your Personal Info</string>
+    <string name="textview_title_recent">Recent</string>
+    <string name="textview_title_recent_cancel">CANCEL</string>
+    <string name="textview_title_recent_edit">EDIT</string>
+    <string name="textview_title_resend_again">Resend OTP</string>
+    <string name="textview_title_save_for_gopay">Save for goPay Checkouts</string>
+    <string name="textview_title_save_for_merchant">Save for %s Checkouts</string>
+    <string name="tokenize">Pay</string>
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+    </style>
+    <style name="EditText">
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColor">@color/greyish_brown</item>
+        <item name="android:textSize">@dimen/font_size_16sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="EditText.Password" />
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background_splash -->
+
+        <!-- Additionally if you want animations when dialog opening -->
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+    <style name="GoSellSDKActionBar">
+        <item name="android:background">@color/french_gray_new</item>
+    </style>
+    <style name="GoSellSDKAppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/GoSellSDKActionBar</item>
+    </style>
+    <style name="GoSellSDKAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor" ns1:ignore="NewApi">@color/french_gray</item>
+    </style>
+    <style name="GoSellSDKAppTheme.Translucent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="GoSellSDKAppTheme_Full" parent="GoSellSDKAppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor" ns1:ignore="NewApi">@color/french_gray</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SecurityText">
+        <item name="android:textColor">@color/security_text_color</item>
+        <item name="android:textSize">@dimen/font_size_13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">@font/avenir_next_regular
+        </item>
+        <item name="android:lineSpacingExtra">@dimen/title_lineSpacingExtra_0</item>
+    </style>
+    <style name="SwitchPrimary">
+        <item name="colorControlActivated">@color/vibrant_green</item>
+    </style>
+    <style name="SwitchSecondary">
+        <item name="colorControlActivated">@color/azure_radiance</item>
+    </style>
+    <style name="TextInputLayout.Hint" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/silver_light</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textSize">@dimen/font_size_11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView" />
+    <style name="TextView.Disclaimer" />
+    <style name="TextView.Disclaimer.Small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_13sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Disclaimer.Thin">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_13sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Hyperlink">
+        <item name="android:textColor">@color/azure_radiance</item>
+        <item name="android:textSize">@dimen/font_size_16sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Title">
+        <item name="android:textColor">@color/bt_black_87</item>
+        <item name="android:textSize">@dimen/font_size_17sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:lineSpacingExtra">@dimen/title_lineSpacingExtra</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Title.Header">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_20sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Title.SectionHeader">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">@dimen/font_size_16sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Title.Small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_16sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Title.Thin">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_16sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif-thin</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextView.Title.Tiny">
+        <item name="android:textColor">@color/greyish_brown</item>
+        <item name="android:textSize">@dimen/font_size_14sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="TransparentCompat" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    <style name="bt_base_textview">
+        <item name="android:textSize">@dimen/bt_input_text_size</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+    <style name="bt_card_form_field" parent="bt_base_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/edit_text_default_padding</item>
+        <item name="android:layout_marginLeft">@dimen/edit_text_default_padding</item>
+        <item name="android:textColorHint">@color/bt_light_gray</item>
+        <item name="android:textCursorDrawable" ns1:ignore="NewApi">@null</item>
+    </style>
+    <style name="bt_expiration_date_dialog_dark" parent="bt_expiration_date_dialog_sheet">
+        <item name="bt_expiration_date_sheet_background">@color/white</item>
+        <item name="bt_expiration_date_dialog_label">@color/black</item>
+        <item name="bt_expiration_date_dialog_divider">@color/french_gray</item>
+        <item name="bt_expiration_date_scrollbar_thumb_vertical">@color/black</item>
+        <item name="bt_expiration_date_scrollbar_track_vertical">@color/black</item>
+    </style>
+    <style name="bt_expiration_date_dialog_grid_view">
+        <item name="android:layout_marginLeft">@dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginStart" ns1:targetApi="jelly_bean_mr1">
+            @dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginRight">@dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginEnd" ns1:targetApi="jelly_bean_mr1">
+            @dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginBottom">@dimen/bt_expiration_date_sheet_top_bottom_margin
+        </item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:columnWidth">72dp</item>
+    </style>
+    <style name="bt_expiration_date_dialog_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/bt_expiration_date_sheet_label_padding_top</item>
+        <item name="android:paddingBottom">@dimen/bt_expiration_date_sheet_label_padding_bottom
+        </item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/bt_expiration_date_dialog_label</item>
+    </style>
+    <style name="bt_expiration_date_dialog_light" parent="bt_expiration_date_dialog_sheet">
+        <item name="bt_expiration_date_sheet_background">
+            @color/bt_expiration_date_sheet_background_light
+        </item>
+        <item name="bt_expiration_date_dialog_label">@color/bt_black_54</item>
+        <item name="bt_expiration_date_dialog_divider">@color/bt_black_12</item>
+        <item name="bt_expiration_date_scrollbar_thumb_vertical">@color/bt_black_54</item>
+        <item name="bt_expiration_date_scrollbar_track_vertical">@color/bt_black_12</item>
+    </style>
+    <style name="bt_expiration_date_dialog_sheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/bt_expiration_date_dialog_sheet_animation
+        </item>
+    </style>
+    <style name="bt_expiration_date_dialog_sheet_animation">
+        <item name="android:windowEnterAnimation">@anim/bt_expiration_date_dialog_open</item>
+        <item name="android:windowExitAnimation">@anim/bt_expiration_date_dialog_close</item>
+    </style>
+    <style name="bt_expiration_date_dialog_year_grid_view" parent="bt_expiration_date_dialog_grid_view">
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingEnd" ns1:targetApi="jelly_bean_mr1">8dp</item>
+        <item name="android:paddingStart" ns1:targetApi="jelly_bean_mr1">0dp</item>
+        <item name="android:scrollbarSize">3dp</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+    </style>
+    <style name="custom_style_cvv_expdate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/edit_text_default_padding</item>
+        <item name="android:layout_marginLeft">@dimen/edit_text_default_padding</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColor">@color/greyish_brown</item>
+        <item name="android:textSize">@dimen/font_size_16sp</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="header_text">
+        <item name="android:textColor">@color/greyish_brown</item>
+        <item name="android:textSize">@dimen/font_size_20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">@font/roboto_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/title_lineSpacingExtra_0</item>
+
+    </style>
+    <style name="popup_window_animation_phone">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    </style>
+    <style name="secondary_text">
+        <item name="android:textColor">@color/greyish_brown</item>
+        <item name="android:textSize">@dimen/font_size_13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">@font/roboto_light</item>
+        <item name="android:lineSpacingExtra">@dimen/title_lineSpacingExtra_11</item>
+
+    </style>
+    <declare-styleable name="PayButtonView">
+        <attr name="android:layout_height" />
+
+        <attr name="android:layout_marginTop" />
+        <attr name="android:layout_marginBottom" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginRight" />
+        <attr name="android:layout_marginStart" />
+        <attr name="android:layout_marginEnd" />
+
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingBottom" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingStart" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingEnd" />
+
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle" />
+
+        <attr name="android:background" />
+        <attr name="android:gravity" />
+        <attr name="android:text" />
+    </declare-styleable>
+</resources>

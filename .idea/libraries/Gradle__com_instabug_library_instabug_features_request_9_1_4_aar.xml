@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.instabug.library:instabug-features-request:9.1.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02ebcdee4455d67ec28e48ab44f788c8/jetified-instabug-features-request-9.1.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1475f6b6cca0d541a4f81e72eed42be7/jetified-instabug-features-request-9.1.4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02ebcdee4455d67ec28e48ab44f788c8/jetified-instabug-features-request-9.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02ebcdee4455d67ec28e48ab44f788c8/jetified-instabug-features-request-9.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02ebcdee4455d67ec28e48ab44f788c8/jetified-instabug-features-request-9.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1475f6b6cca0d541a4f81e72eed42be7/jetified-instabug-features-request-9.1.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1475f6b6cca0d541a4f81e72eed42be7/jetified-instabug-features-request-9.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1475f6b6cca0d541a4f81e72eed42be7/jetified-instabug-features-request-9.1.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-features-request/9.1.4/614bd149f64fa67806f43a4a8f4d9c3b29eb8ef9/instabug-features-request-9.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-features-request/9.1.4/614bd149f64fa67806f43a4a8f4d9c3b29eb8ef9/instabug-features-request-9.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

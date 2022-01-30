@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: vn.nms.dseekbar:DMSeekBar:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b97d135699491e8a46c2e24713f12d7b/jetified-DMSeekBar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b97d135699491e8a46c2e24713f12d7b/jetified-DMSeekBar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b97d135699491e8a46c2e24713f12d7b/jetified-DMSeekBar-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70a856867abb1f4a209e2e76a102ffff/jetified-DMSeekBar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70a856867abb1f4a209e2e76a102ffff/jetified-DMSeekBar-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70a856867abb1f4a209e2e76a102ffff/jetified-DMSeekBar-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48dc329b684fd771ecc7237b2e2012dc/jetified-DMSeekBar-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48dc329b684fd771ecc7237b2e2012dc/jetified-DMSeekBar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48dc329b684fd771ecc7237b2e2012dc/jetified-DMSeekBar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70981c02dc3b6732c5cceae6882cc392/jetified-DMSeekBar-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70981c02dc3b6732c5cceae6882cc392/jetified-DMSeekBar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70981c02dc3b6732c5cceae6882cc392/jetified-DMSeekBar-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/vn.nms.dseekbar/DMSeekBar/1.0.0/8cf57d95bdac95ec1a32487f285e35f066457ff2/DMSeekBar-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/vn.nms.dseekbar/DMSeekBar/1.0.0/f76823e788640d56eeccc43a51e9e0ddf24d4171/DMSeekBar-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

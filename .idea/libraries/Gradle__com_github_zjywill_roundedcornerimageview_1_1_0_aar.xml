@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zjywill:roundedcornerimageview:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e00a556c87549b6f918eb9afd3683b62/jetified-roundedcornerimageview-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e00a556c87549b6f918eb9afd3683b62/jetified-roundedcornerimageview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e00a556c87549b6f918eb9afd3683b62/jetified-roundedcornerimageview-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdd32313c95f738339a15d260f6a8670/jetified-roundedcornerimageview-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdd32313c95f738339a15d260f6a8670/jetified-roundedcornerimageview-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdd32313c95f738339a15d260f6a8670/jetified-roundedcornerimageview-1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zjywill/roundedcornerimageview/1.1.0/da1d46a03e93a4a0d7e5e8a0e1c41df146a3e2b7/roundedcornerimageview-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zjywill/roundedcornerimageview/1.1.0/bc2c4fe17956b655900736d220a9f5eb8a79056d/roundedcornerimageview-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: me.toptas.fancyshowcase:fancyshowcaseview:1.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b5df15c718532c9615a14cf9167ef3/jetified-fancyshowcaseview-1.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b5df15c718532c9615a14cf9167ef3/jetified-fancyshowcaseview-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b5df15c718532c9615a14cf9167ef3/jetified-fancyshowcaseview-1.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef2db62c01a219899925d55ac1a1fd8f/jetified-fancyshowcaseview-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef2db62c01a219899925d55ac1a1fd8f/jetified-fancyshowcaseview-1.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef2db62c01a219899925d55ac1a1fd8f/jetified-fancyshowcaseview-1.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.toptas.fancyshowcase/fancyshowcaseview/1.3.0/6459354132b7c3569dcaefcebe2c8d02887db425/fancyshowcaseview-1.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.toptas.fancyshowcase/fancyshowcaseview/1.3.0/46af559cefd82fc1e5d43d963f29e818472a76aa/fancyshowcaseview-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
